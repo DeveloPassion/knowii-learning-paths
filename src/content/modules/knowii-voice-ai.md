@@ -19,7 +19,7 @@ I put it here in the path, right after the Knowledge Worker Kit and before the j
 
 **Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). License key in the library; downloads and docs at [voice-ai.knowii.net](https://voice-ai.knowii.net).
 
-**Bought on knowii.net:** downloads are in the [Voice AI space](https://www.knowii.net/c/voice-ai); you also get an invite to the community (limited access, enough for support).
+**Bought on knowii.net:** downloads are in the [Voice AI space](https://www.knowii.net/c/voice-ai); you also get an invite to the community (Explorer level plus the Voice AI spaces).
 
 **Documentation:** [docs.voice-ai.knowii.net](https://docs.voice-ai.knowii.net/). Setup, models, hotkeys, troubleshooting.
 

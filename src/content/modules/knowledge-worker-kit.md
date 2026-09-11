@@ -33,7 +33,7 @@ It also bundles the Obsidian Starter Kit, the Starter Course, the PKM Library an
 
 **Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). The guide and every bonus (vault, course, library, recordings) sit next to each other in the library. The guide itself is on my notes site: [Knowledge Worker Kit - Overview](https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.04+Creations/Products/Knowledge+Worker+Kit/Knowledge+Worker+Kit+-+00+Overview).
 
-**Knowii member:** the [Knowledge Worker Kit space](https://www.knowii.net/c/knowledge-worker-kit) has a 'Where to find the guide' lesson (Knowledge Master). KWK buyers are invited to Knowii too, but event spaces need a paid tier. Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
+**Knowii member:** the [Knowledge Worker Kit space](https://www.knowii.net/c/knowledge-worker-kit) has a 'Where to find the guide' lesson (Knowledge Master). KWK buyers are invited to Knowii too (Explorer level plus the KWK spaces); the paid event archives need a Builder or Master tier. Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
 
 ## Do this first
 

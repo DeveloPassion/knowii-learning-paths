@@ -21,7 +21,7 @@ A ready-made Obsidian vault with the organization system, 40+ templates that fil
 
 ## Where to ask questions
 
-However you got the kit (alone, Premium, in the Knowledge Worker Kit, the Everything Knowledge Bundle, or a Knowii tier), support lives in Knowii: the [Obsidian Starter Kit Discussions](https://www.knowii.net/c/obsidian-starter-kit-lounge). Setup questions, "is this normal?", plugin conflicts, showing your vault. The [Obsidian space](https://www.knowii.net/c/obsidian) is for Obsidian beyond the kit. Not a member yet? Explorer is enough to get in.
+However you got the kit (alone, Premium, in the Knowledge Worker Kit, the Everything Knowledge Bundle, or a Knowii tier), support lives in Knowii: the [Obsidian Starter Kit Discussions](https://www.knowii.net/c/obsidian-starter-kit-lounge). Setup questions, "is this normal?", plugin conflicts, showing your vault. The [Obsidian space](https://www.knowii.net/c/obsidian) is for Obsidian beyond the kit. Every OSK owner gets invited, at Explorer level plus the OSK spaces. No invite yet? sebastien@developassion.be.
 
 ## Do this first
 

@@ -17,10 +17,12 @@ Everything in Knowii that happens on a calendar. Live sessions (masterclasses, w
 Three archives, by tier. Each past event has a 'Watch recording' button when a recording exists.
 
 - [Public Events & Video Chat](https://www.knowii.net/c/public-events?pastEvents=true&sort=desc&iframe=false): open to everyone, even without an account. Live rooms, public sessions.
-- [Events and Office Hours](https://www.knowii.net/c/events-and-office-hours?pastEvents=true&sort=desc&iframe=false): Knowledge Builder and Knowledge Master. Weekly office hours plus every masterclass recording (Journaling, Personal Organization, Clarity, AI Master Prompt, MCP, and what came after).
+- [Events and Office Hours](https://www.knowii.net/c/events-and-office-hours?pastEvents=true&sort=desc&iframe=false): Knowledge Builder and Knowledge Master. Office hours (cadence varies; I'm resuming a regular rhythm) plus every masterclass recording (Journaling, Personal Organization, Clarity, AI Master Prompt, MCP, and what came after).
 - [Masterminds](https://www.knowii.net/c/masterminds?pastEvents=true&sort=desc&iframe=false): Knowledge Master. AMAs and group coaching. Still a short list; it grows with the tier.
 
-Bought the Knowledge Worker Kit or a workshop on Gumroad instead? Your recordings are in your [Gumroad library](https://gumroad.com/library). You're welcome in Knowii, but the two paid archives need a Knowledge Builder or Knowledge Master subscription.
+Bought the Knowledge Worker Kit or a workshop on Gumroad instead? Your recordings are in your [Gumroad library](https://gumroad.com/library). You're invited to Knowii at Explorer level, which covers the public events; the two paid archives need a Knowledge Builder or Knowledge Master subscription.
+
+Which events are free and which aren't: the important ones are Builder and up, masterminds are Master only, and a good share of the rest is open to everyone. The archive you can see is the archive you have access to.
 
 The public write-up of every event (agenda, resources, links) is on my notes site: [Knowii Community Events](https://notes.dsebastien.net/30+Areas/34+Maps/34.01+MoCs/Knowii+Community+Events).
 

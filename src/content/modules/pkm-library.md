@@ -16,7 +16,7 @@ A Notion space with everything I collected researching the PKM field: tools comp
 
 **Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). The Notion link is in the library. Duplicate the space into your own Notion if you want to annotate.
 
-**Knowii member:** the link is pinned in the Knowledge Masters spaces. Knowledge Master only. Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
+**Knowledge Master member:** the link comes with your welcome email. Lost it? sebastien@developassion.be. Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
 
 ## Do this first
 
