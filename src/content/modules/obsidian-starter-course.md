@@ -16,7 +16,7 @@ Two hours and twenty minutes of me walking through Obsidian and the Starter Kit:
 
 **Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). OSK Premium, Knowledge Worker Kit and Everything Knowledge Bundle buyers: same library, separate product.
 
-**Everyone who owns it, whichever way:** you're invited to Knowii, and the [Obsidian Starter Course space](https://www.knowii.net/c/obsidian-starter-course) has the same videos with progress tracking. Nicer than a folder of files; watch them there. Knowledge Builder and Knowledge Master tiers have it unlocked already.
+**Everyone who owns it, whichever way:** you're invited to Knowii, and the [Obsidian Starter Course space](https://www.knowii.net/c/obsidian-starter-course) has the same videos with progress tracking. Nicer than a folder of files; watch them there, and ask questions as comments directly under the lesson they're about. Knowledge Builder and Knowledge Master tiers have it unlocked already.
 
 **Questions about the course:** the [Courses Support & Discussions](https://www.knowii.net/c/courses-lounge) space. Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
 
