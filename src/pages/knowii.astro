@@ -3,50 +3,53 @@ import Base from '../layouts/Base.astro';
 const C = 'https://www.knowii.net';
 ---
 <Base title="How Knowii is organized" description="The spaces of the Knowii community, by tier, and what each one is for.">
-  <h1>How Knowii is organized</h1>
-  <p class="lead">Knowii runs on Circle at <a href={C}>knowii.net</a>. Spaces are grouped by tier and by topic. Here's the map, so you know where to post and where to look.</p>
+  <div class="rich">
+  <span class="pill">Community</span>
+  <h1 class="mt-4 text-4xl font-extrabold leading-tight">How Knowii is <span class="gradient-word">organized</span></h1>
+  <p class="mt-3 text-lg muted">Knowii runs on Circle at <a href={C}>knowii.net</a>. Spaces are grouped by tier and by topic. Here's the map, so you know where to post and where to look.</p>
 
-  <div class="callout">Invites are sent by me, personally, within 24 to 48 hours of subscribing. Not there yet? <a href="mailto:sebastien@developassion.be">sebastien@developassion.be</a>.</div>
+  <div class="callout mt-6">Invites are sent by me, personally, within 24 to 48 hours of subscribing. Not there yet? <a href="mailto:sebastien@developassion.be">sebastien@developassion.be</a>.</div>
 
-  <h2>What you can see, in one rule</h2>
-  <p>Everyone I invite, whether you subscribed to the newsletter, bought one product, or pay for a tier, gets at least <b>Explorer</b>: the Public group and every topic discussion space. On top of that, <b>you own it, you get its spaces</b>: the Obsidian Starter Kit unlocks the OSK spaces, a course unlocks its course space plus Courses Support, Voice AI unlocks the Voice AI spaces, the Everything Knowledge Bundle unlocks all of them. Knowledge Builder adds the Builders group and the OSK + Starter Course spaces; Knowledge Master adds the Masters group plus KWK, KMfB and the Ghostwriter guide. If a space isn't in your sidebar, you don't own the thing it belongs to.</p>
+  <h2 class="mt-10 text-xl font-extrabold">What you can see, in one rule</h2><div class="underline-bar"></div>
+  <p class="my-3 text-white/85 leading-relaxed">Everyone I invite, whether you subscribed to the newsletter, bought one product, or pay for a tier, gets at least <b>Explorer</b>: the Public group and every topic discussion space. On top of that, <b>you own it, you get its spaces</b>: the Obsidian Starter Kit unlocks the OSK spaces, a course unlocks its course space plus Courses Support, Voice AI unlocks the Voice AI spaces, the Everything Knowledge Bundle unlocks all of them. Knowledge Builder adds the Builders group and the OSK + Starter Course spaces; Knowledge Master adds the Masters group plus KWK, KMfB and the Ghostwriter guide. If a space isn't in your sidebar, you don't own the thing it belongs to.</p>
 
-  <h2>Public: every tier, some of it visible without an account</h2>
-  <ul>
-    <li><b>Announcements</b>: what's new. Read-only for members.</li>
-    <li><a href={`${C}/c/start-here`}><b>Start Here</b></a>: how I want the place to work. Read it first.</li>
-    <li><a href={`${C}/c/say-hello`}><b>Introduce Yourself!</b></a>: your first post. Who you are, what your notes look like today.</li>
-    <li><a href={`${C}/c/lounge`}><b>General</b></a> (chat), <b>Inspiration</b>, <b>Wins & Celebrations</b>, <b>Random</b>: conversation.</li>
-    <li><a href={`${C}/c/public-events?pastEvents=true&sort=desc&iframe=false`}><b>Public Events & Video Chat</b></a>: live rooms and public sessions, with recordings.</li>
-    <li><a href={`${C}/c/featured-resources`}><b>Featured Resources</b></a>: the checklist, the Obsidian guide, the concepts knowledge base, and the other free material.</li>
-    <li><b>Books</b>, <b>Meta</b> (about Knowii itself), <a href={`${C}/c/affiliates`}><b>Affiliate Program</b></a>.</li>
+  <h2 class="mt-10 text-xl font-extrabold">Public: every tier, some of it visible without an account</h2><div class="underline-bar"></div>
+  <ul class="my-3 list-disc pl-6 text-white/85 space-y-1.5">
+    <li class="my-1"><b>Announcements</b>: what's new. Read-only for members.</li>
+    <li class="my-1"><a href={`${C}/c/start-here`}><b>Start Here</b></a>: how I want the place to work. Read it first.</li>
+    <li class="my-1"><a href={`${C}/c/say-hello`}><b>Introduce Yourself!</b></a>: your first post. Who you are, what your notes look like today.</li>
+    <li class="my-1"><a href={`${C}/c/lounge`}><b>General</b></a> (chat), <b>Inspiration</b>, <b>Wins & Celebrations</b>, <b>Random</b>: conversation.</li>
+    <li class="my-1"><a href={`${C}/c/public-events?pastEvents=true&sort=desc&iframe=false`}><b>Public Events & Video Chat</b></a>: live rooms and public sessions, with recordings.</li>
+    <li class="my-1"><a href={`${C}/c/featured-resources`}><b>Featured Resources</b></a>: the checklist, the Obsidian guide, the concepts knowledge base, and the other free material.</li>
+    <li class="my-1"><b>Books</b>, <b>Meta</b> (about Knowii itself), <a href={`${C}/c/affiliates`}><b>Affiliate Program</b></a>.</li>
   </ul>
 
-  <h2>Topic discussions: every tier</h2>
-  <p><a href={`${C}/c/knowledge-management-lounge`}>Knowledge Management</a> (with <a href={`${C}/c/theory`}>Theory</a> and <a href={`${C}/c/journaling`}>Journaling</a>), <a href={`${C}/c/obsidian`}>Obsidian</a> (with <a href={`${C}/c/show-off-your-garden`}>Show off your garden</a> and <a href={`${C}/c/tools`}>Tools</a>), <a href={`${C}/c/knowledge-work-lounge`}>Knowledge Work</a> (with Future of Knowledge Work), <a href={`${C}/c/ai-lounge`}>AI</a>, <a href={`${C}/c/content-creation-lounge`}>Content Creation</a>, <a href={`${C}/c/zen-productivity-lounge`}>Zen Productivity</a>. Post where the topic fits; I read all of them.</p>
+  <h2 class="mt-10 text-xl font-extrabold">Topic discussions: every tier</h2><div class="underline-bar"></div>
+  <p class="my-3 text-white/85 leading-relaxed"><a href={`${C}/c/knowledge-management-lounge`}>Knowledge Management</a> (with <a href={`${C}/c/theory`}>Theory</a> and <a href={`${C}/c/journaling`}>Journaling</a>), <a href={`${C}/c/obsidian`}>Obsidian</a> (with <a href={`${C}/c/show-off-your-garden`}>Show off your garden</a> and <a href={`${C}/c/tools`}>Tools</a>), <a href={`${C}/c/knowledge-work-lounge`}>Knowledge Work</a> (with Future of Knowledge Work), <a href={`${C}/c/ai-lounge`}>AI</a>, <a href={`${C}/c/content-creation-lounge`}>Content Creation</a>, <a href={`${C}/c/zen-productivity-lounge`}>Zen Productivity</a>. Post where the topic fits; I read all of them.</p>
 
-  <h2>Knowledge Builders</h2>
-  <ul>
-    <li><a href={`${C}/c/knowledge-builders-lounge`}><b>Knowledge Builders Discussions</b></a>, <a href={`${C}/c/systems-workflows`}><b>Systems & Workflows</b></a> (show and compare setups), <a href={`${C}/c/ask-the-community`}><b>Ask the Community</b></a> (questions with answers that stay findable).</li>
-    <li><a href={`${C}/c/challenges`}><b>Challenges</b></a>: monthly, with a deadline.</li>
-    <li><a href={`${C}/c/events-and-office-hours?pastEvents=true&sort=desc&iframe=false`}><b>Events and Office Hours</b></a>: weekly office hours, plus every masterclass recording (Journaling Deep Dive, Personal Organization 101, Clarity 101, AI Master Prompt, MCP, and the ones since).</li>
+  <h2 class="mt-10 text-xl font-extrabold">Knowledge Builders</h2><div class="underline-bar"></div>
+  <ul class="my-3 list-disc pl-6 text-white/85 space-y-1.5">
+    <li class="my-1"><a href={`${C}/c/knowledge-builders-lounge`}><b>Knowledge Builders Discussions</b></a>, <a href={`${C}/c/systems-workflows`}><b>Systems & Workflows</b></a> (show and compare setups), <a href={`${C}/c/ask-the-community`}><b>Ask the Community</b></a> (questions with answers that stay findable).</li>
+    <li class="my-1"><a href={`${C}/c/challenges`}><b>Challenges</b></a>: monthly, with a deadline.</li>
+    <li class="my-1"><a href={`${C}/c/events-and-office-hours?pastEvents=true&sort=desc&iframe=false`}><b>Events and Office Hours</b></a>: weekly office hours, plus every masterclass recording (Journaling Deep Dive, Personal Organization 101, Clarity 101, AI Master Prompt, MCP, and the ones since).</li>
   </ul>
 
-  <h2>Knowledge Masters</h2>
-  <ul>
-    <li><b>Knowledge Masters Discussions</b>.</li>
-    <li><a href={`${C}/c/masterminds?pastEvents=true&sort=desc&iframe=false`}><b>Masterminds</b></a>: AMAs and group coaching. Short list today; it grows with the tier.</li>
+  <h2 class="mt-10 text-xl font-extrabold">Knowledge Masters</h2><div class="underline-bar"></div>
+  <ul class="my-3 list-disc pl-6 text-white/85 space-y-1.5">
+    <li class="my-1"><b>Knowledge Masters Discussions</b>.</li>
+    <li class="my-1"><a href={`${C}/c/masterminds?pastEvents=true&sort=desc&iframe=false`}><b>Masterminds</b></a>: AMAs and group coaching. Short list today; it grows with the tier.</li>
   </ul>
 
-  <h2>Product spaces: for owners, however you bought</h2>
-  <p>If you own one of these, whether bought alone, in a bundle, or through a tier, you belong in its space. This is where support happens; faster than email, and others learn from the answer.</p>
-  <ul>
-    <li><b>Obsidian Starter Kit</b>: <a href={`${C}/c/obsidian-starter-kit-lounge`}>OSK Discussions</a> for support, questions and meeting other users; the <a href={`${C}/c/obsidian-starter-kit`}>OSK space</a> holds the user guide and downloads for members.</li>
-    <li><b>Knowledge Worker Kit</b>: discussions plus a course space pointing to the guide.</li>
-    <li><b>Voice AI</b>: <a href={`${C}/c/voice-ai-lounge`}>Voice AI Discussions</a> for support; the <a href={`${C}/c/voice-ai`}>Voice AI space</a> holds the downloads for people who bought on knowii.net.</li>
-    <li><a href={`${C}/courses`}><b>Courses</b></a>: Knowledge Management for Beginners, <a href={`${C}/c/obsidian-starter-course`}>Obsidian Starter Course</a>, AI Ghostwriter Guide, each with progress tracking, plus a shared <a href={`${C}/c/courses-lounge`}>Courses Support & Discussions</a> space. Course buyers from Gumroad are invited too.</li>
+  <h2 class="mt-10 text-xl font-extrabold">Product spaces: for owners, however you bought</h2><div class="underline-bar"></div>
+  <p class="my-3 text-white/85 leading-relaxed">If you own one of these, whether bought alone, in a bundle, or through a tier, you belong in its space. This is where support happens; faster than email, and others learn from the answer.</p>
+  <ul class="my-3 list-disc pl-6 text-white/85 space-y-1.5">
+    <li class="my-1"><b>Obsidian Starter Kit</b>: <a href={`${C}/c/obsidian-starter-kit-lounge`}>OSK Discussions</a> for support, questions and meeting other users; the <a href={`${C}/c/obsidian-starter-kit`}>OSK space</a> holds the user guide and downloads for members.</li>
+    <li class="my-1"><b>Knowledge Worker Kit</b>: discussions plus a course space pointing to the guide.</li>
+    <li class="my-1"><b>Voice AI</b>: <a href={`${C}/c/voice-ai-lounge`}>Voice AI Discussions</a> for support; the <a href={`${C}/c/voice-ai`}>Voice AI space</a> holds the downloads for people who bought on knowii.net.</li>
+    <li class="my-1"><a href={`${C}/courses`}><b>Courses</b></a>: Knowledge Management for Beginners, <a href={`${C}/c/obsidian-starter-course`}>Obsidian Starter Course</a>, AI Ghostwriter Guide, each with progress tracking, plus a shared <a href={`${C}/c/courses-lounge`}>Courses Support & Discussions</a> space. Course buyers from Gumroad are invited too.</li>
   </ul>
 
-  <h2>Sidebar links worth knowing</h2>
-  <p><a href="https://notes.dsebastien.net">Knowledge Base</a> · <a href="https://concepts.dsebastien.net">Concepts</a> · PKM Wiki · <a href="https://dsebastien.net/newsletter">Newsletter</a> · <a href="https://store.dsebastien.net">Store</a> · <a href="https://tools.dsebastien.net">Tools</a> · iOS and Android apps · <a href="/affiliate">Affiliate program</a>.</p>
+  <h2 class="mt-10 text-xl font-extrabold">Sidebar links worth knowing</h2><div class="underline-bar"></div>
+  <p class="my-3 text-white/85 leading-relaxed"><a href="https://notes.dsebastien.net">Knowledge Base</a> · <a href="https://concepts.dsebastien.net">Concepts</a> · PKM Wiki · <a href="https://dsebastien.net/newsletter">Newsletter</a> · <a href="https://store.dsebastien.net">Store</a> · <a href="https://tools.dsebastien.net">Tools</a> · iOS and Android apps · <a href="/affiliate">Affiliate program</a>.</p>
+  </div>
 </Base>

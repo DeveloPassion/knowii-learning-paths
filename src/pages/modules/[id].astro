@@ -10,14 +10,16 @@ const { Content } = await render(m);
 const paths = (await getCollection('paths')).filter((p) => p.data.phases.some((ph) => ph.steps.some((s) => s.module === m.id)));
 ---
 <Base title={m.data.title} description={m.data.summary}>
-  <p class="meta"><span class="tag">{m.data.kind}</span><span class="tag">{m.data.time}</span><span class="tag">{m.data.format}</span></p>
-  <h1>{m.data.title}</h1>
-  <p class="lead">{m.data.summary}</p>
-  <p>
-    {m.data.access && <a href={m.data.access}>Open it →</a>}
-    {m.data.access && m.data.storeUrl && ' · '}
-    {m.data.storeUrl && <a href={m.data.storeUrl}>Store page</a>}
+  <p class="flex flex-wrap gap-1.5"><span class="chip">{m.data.kind}</span><span class="chip">{m.data.time}</span><span class="chip">{m.data.format}</span></p>
+  <h1 class="mt-4 text-4xl font-extrabold leading-tight">{m.data.title}</h1>
+  <p class="mt-3 text-lg muted">{m.data.summary}</p>
+  <p class="mt-5 flex flex-wrap gap-3">
+    {m.data.access && <a class="btn-primary" href={m.data.access}>Open it</a>}
+    {m.data.storeUrl && <a class="btn-secondary" href={m.data.storeUrl}>Store page</a>}
   </p>
-  <div class="prose"><Content /></div>
-  {paths.length > 0 && (<><h2>Part of these paths</h2><ul>{paths.map((p) => <li><a href={`/paths/${p.id}`}>{p.data.title}</a></li>)}</ul></>)}
+  <div class="prose mt-2"><Content /></div>
+  {paths.length > 0 && (<>
+    <h2 class="mt-12 text-xl font-extrabold">Part of these paths</h2><div class="underline-bar"></div>
+    <ul class="rich mt-3 list-disc pl-6 text-white/85">{paths.map((p) => <li><a href={`/paths/${p.id}`}>{p.data.title}</a></li>)}</ul>
+  </>)}
 </Base>

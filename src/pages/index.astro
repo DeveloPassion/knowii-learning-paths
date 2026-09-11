@@ -4,19 +4,28 @@ import { getCollection } from 'astro:content';
 const paths = (await getCollection('paths')).sort((a, b) => a.data.order - b.data.order);
 ---
 <Base title="Start here">
-  <h1>What did you get? Pick it. I'll tell you the order.</h1>
-  <p class="lead">Every product I sell fits into one system. Buying a bundle or joining Knowii gives you a lot at once, and "a lot at once" is exactly how people stall. Pick what you own below and follow the steps in order. Skip what you already know.</p>
-  <div class="grid">
+  <section class="relative overflow-hidden rounded-2xl bg-gradient-to-br from-secondary/10 via-gradient-partner/10 to-background px-6 py-12 md:px-10">
+    <span class="pill">For customers</span>
+    <h1 class="mt-4 text-4xl font-extrabold leading-tight md:text-5xl">What did you get? Pick it. I'll tell you the <span class="gradient-word">order</span>.</h1>
+    <p class="mt-4 max-w-2xl text-lg muted">Every product I sell fits into one system. Buying a bundle or joining Knowii gives you a lot at once, and "a lot at once" is exactly how people stall. Pick what you own below and follow the steps in order. Skip what you already know.</p>
+  </section>
+
+  <h2 class="mt-12 text-2xl font-extrabold">Your path</h2><div class="underline-bar"></div>
+  <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
     {paths.map((p) => (
-      <a class="card" href={`/paths/${p.id}`} style="text-decoration:none;color:inherit">
-        <h3>{p.data.title}</h3>
-        <p class="meta">{p.data.purchase}</p>
+      <a class="card block" href={`/paths/${p.id}`}>
+        <h3 class="font-bold">{p.data.title}</h3>
+        <p class="mt-1 text-sm muted">{p.data.purchase}</p>
       </a>
     ))}
   </div>
-  <div class="callout">Not sure which one applies? Your Gumroad receipt or your Knowii tier name tells you. Bought on Gumroad: your files are in your <a href="https://gumroad.com/library">Gumroad library</a>. Joined Knowii on knowii.net: everything is inside the community. Still lost? <a href="/help">Help</a>.</div>
-  <p><a href="/free">Free resources</a> for everyone, whatever you own. <a href="/knowii">How Knowii is organized</a> if you're a member or about to be.</p>
-  <h2>Two things that are true for every buyer</h2>
-  <p>Whatever you bought, wherever you bought it, you're on my newsletter now. New editions, articles and news land at <a href="https://dsebastien.net">dsebastien.net</a> (<a href="https://www.dsebastien.net/blog/">articles</a>, <a href="https://www.dsebastien.net/newsletter/">newsletter</a>, <a href="https://www.dsebastien.net/news/">news</a>) and in your inbox. That's how you'll hear about updates to what you own.</p>
-  <p>And whatever you bought, you're welcome in <a href="https://www.knowii.net">Knowii</a>. Product spaces (<a href="https://www.knowii.net/c/obsidian-starter-kit-lounge">Obsidian Starter Kit Discussions</a>, <a href="https://www.knowii.net/c/voice-ai-lounge">Voice AI Discussions</a>, and the others) are where support and questions happen, and where you meet the people using the same system.</p>
+
+  <div class="callout mt-10">Not sure which one applies? Your Gumroad receipt or your Knowii tier name tells you. Bought on Gumroad: your files are in your <a href="https://gumroad.com/library">Gumroad library</a>. Joined Knowii on knowii.net: everything is inside the community. Still lost? <a href="/help">Help</a>.</div>
+
+  <h2 class="mt-12 text-2xl font-extrabold">Two things that are true for every buyer</h2><div class="underline-bar"></div>
+  <div class="rich mt-4 space-y-3 text-white/85">
+    <p>Whatever you bought, wherever you bought it, you're on my newsletter now. New editions, articles and news land at <a href="https://dsebastien.net">dsebastien.net</a> (<a href="https://www.dsebastien.net/blog/">articles</a>, <a href="https://www.dsebastien.net/newsletter/">newsletter</a>, <a href="https://www.dsebastien.net/news/">news</a>) and in your inbox. That's how you'll hear about updates to what you own.</p>
+    <p>And whatever you bought, you're welcome in <a href="https://www.knowii.net">Knowii</a>, at Explorer level plus the spaces of what you own. Product spaces (<a href="https://www.knowii.net/c/obsidian-starter-kit-lounge">Obsidian Starter Kit Discussions</a>, <a href="https://www.knowii.net/c/voice-ai-lounge">Voice AI Discussions</a>, <a href="https://www.knowii.net/c/courses-lounge">Courses Support</a>) are where questions get answered and where you meet the people using the same system. <a href="/knowii">Here's the map.</a></p>
+  </div>
+  <div class="mt-8 flex flex-wrap gap-3"><a class="btn-primary" href="https://www.knowii.net">Open Knowii</a><a class="btn-secondary" href="/free">Free resources</a></div>
 </Base>

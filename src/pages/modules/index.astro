@@ -4,14 +4,15 @@ import { getCollection } from 'astro:content';
 const mods = (await getCollection('modules')).sort((a, b) => a.data.title.localeCompare(b.data.title));
 ---
 <Base title="All modules">
-  <h1>All modules</h1>
-  <p class="lead">One page per product. Paths are built from these.</p>
-  <div class="grid">
+  <span class="pill">Reference</span>
+  <h1 class="mt-4 text-4xl font-extrabold">All <span class="gradient-word">modules</span></h1>
+  <p class="mt-3 text-lg muted">One page per product. Paths are built from these.</p>
+  <div class="mt-8 grid gap-4 sm:grid-cols-2">
     {mods.map((m) => (
-      <a class="card" href={`/modules/${m.id}`} style="text-decoration:none;color:inherit">
-        <h3>{m.data.title}</h3>
-        <p class="meta"><span class="tag">{m.data.kind}</span><span class="tag">{m.data.time}</span></p>
-        <p>{m.data.summary}</p>
+      <a class="card block" href={`/modules/${m.id}`}>
+        <h3 class="font-bold">{m.data.title}</h3>
+        <p class="mt-2 flex flex-wrap gap-1.5"><span class="chip">{m.data.kind}</span><span class="chip">{m.data.time}</span></p>
+        <p class="mt-2 text-sm muted">{m.data.summary}</p>
       </a>
     ))}
   </div>

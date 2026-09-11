@@ -17,28 +17,37 @@ const phases = await Promise.all(p.data.phases.map(async (ph) => ({
 const total = phases.reduce((n, ph) => n + ph.steps.length, 0);
 ---
 <Base title={p.data.title} description={p.data.intro}>
-  <p class="meta">{p.data.purchase}{p.data.storeUrl && <> · <a href={p.data.storeUrl}>store page</a></>}</p>
-  <h1>{p.data.title}</h1>
-  <p class="lead">{p.data.intro}</p>
-  <div class="progress"><span><b data-done>0</b>/{total} done</span><div class="bar"><i data-bar></i></div><button class="reset" data-reset>reset</button></div>
+  <span class="pill">{p.data.purchase}</span>
+  <h1 class="mt-4 text-4xl font-extrabold leading-tight md:text-5xl">{p.data.title}</h1>
+  <p class="mt-4 text-lg muted">{p.data.intro}</p>
+  {p.data.storeUrl && <p class="mt-2 text-sm rich"><a href={p.data.storeUrl}>Store page</a></p>}
+
+  <div class="well mt-8 flex items-center gap-4 text-sm muted">
+    <span><b class="text-2xl font-bold text-success" data-done>0</b> / {total} done</span>
+    <div class="h-1.5 flex-1 overflow-hidden rounded-full bg-white/10"><i class="block h-full bg-success transition-[width]" style="width:0" data-bar></i></div>
+    <button class="rounded-lg bg-white/10 px-2.5 py-1 text-xs font-semibold text-white hover:bg-white/15" data-reset>reset</button>
+  </div>
+
   {phases.map((ph, i) => (
-    <section class="phase">
-      {ph.when && <div class="when">{ph.when}</div>}
-      <h2 style="margin-top:.2rem">{i + 1}. {ph.title}</h2>
-      {ph.steps.map((s) => (
-        <div class="step" data-step={`${p.id}:${s.module}`}>
-          <input type="checkbox" aria-label={`Done: ${s.m.data.title}`} />
-          <div class="body">
-            <h3><a href={`/modules/${s.module}`}>{s.m.data.title}</a> {s.optional && <span class="optional">(optional)</span>}</h3>
-            <p class="meta">{s.m.data.time} · {s.m.data.format}{s.m.data.access && <> · <a href={s.m.data.access}>open</a></>}</p>
-            {s.note && <p class="note">{s.note}</p>}
-          </div>
-        </div>
-      ))}
+    <section class="mt-12">
+      {ph.when && <div class="text-xs font-bold uppercase tracking-widest text-secondary-text">{ph.when}</div>}
+      <h2 class="mt-1 text-2xl font-extrabold">{i + 1}. {ph.title}</h2><div class="underline-bar"></div>
+      <div class="mt-4 space-y-3">
+        {ph.steps.map((s) => (
+          <label class="card flex cursor-pointer gap-4 has-[:checked]:opacity-55" data-step={`${p.id}:${s.module}`}>
+            <input type="checkbox" class="mt-1.5 size-5 shrink-0 accent-success" aria-label={`Done: ${s.m.data.title}`} />
+            <div class="min-w-0">
+              <h3 class="font-bold"><a class="hover:underline" href={`/modules/${s.module}`}>{s.m.data.title}</a> {s.optional && <span class="ml-1 text-xs font-semibold uppercase tracking-wide muted">optional</span>}</h3>
+              <p class="mt-1 flex flex-wrap gap-1.5"><span class="chip">{s.m.data.time}</span><span class="chip">{s.m.data.format}</span>{s.m.data.access && <a class="chip hover:bg-white/15" href={s.m.data.access}>open ↗</a>}</p>
+              {s.note && <p class="mt-2 text-sm text-white/85">{s.note}</p>}
+            </div>
+          </label>
+        ))}
+      </div>
     </section>
   ))}
-  {p.data.next && <div class="callout" set:html={p.data.next} />}
-  <p class="meta">Stuck? <a href="/help">Help</a>. Liked it? <a href="/affiliate">Earn 40% recommending it</a>.</p>
+  {p.data.next && <div class="callout mt-12" set:html={p.data.next} />}
+  <p class="mt-6 text-sm muted rich">Stuck? <a href="/help">Help</a>. Liked it? <a href="/affiliate">Earn 40% recommending it</a>.</p>
   <script>
     const key = 'lp:' + location.pathname;
     const steps = [...document.querySelectorAll<HTMLElement>('[data-step]')];
@@ -46,7 +55,7 @@ const total = phases.reduce((n, ph) => n + ph.steps.length, 0);
     let state = load();
     const paint = () => {
       let done = 0;
-      steps.forEach((el) => { const id = el.dataset.step!; const on = !!state[id]; (el.querySelector('input') as HTMLInputElement).checked = on; el.classList.toggle('done', on); if (on) done++; });
+      steps.forEach((el) => { const on = !!state[el.dataset.step!]; (el.querySelector('input') as HTMLInputElement).checked = on; if (on) done++; });
       document.querySelector('[data-done]')!.textContent = String(done);
       (document.querySelector('[data-bar]') as HTMLElement).style.width = steps.length ? `${(100 * done) / steps.length}%` : '0';
     };

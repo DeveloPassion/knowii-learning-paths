@@ -1,7 +1,8 @@
 ---
 import '../styles/global.css';
 interface Props { title: string; description?: string }
-const { title, description = 'Learning paths for Knowii and DeveloPassion customers.' } = Astro.props;
+const { title, description = 'Learning paths for Knowii and DeveloPassion customers: the order to go through what you own.' } = Astro.props;
+const nav = [['/modules', 'Modules'], ['/knowii', 'Knowii'], ['/free', 'Free'], ['/help', 'Help']];
 ---
 <!doctype html>
 <html lang="en">
@@ -10,16 +11,20 @@ const { title, description = 'Learning paths for Knowii and DeveloPassion custom
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title} · Knowii Learning Paths</title>
   <meta name="description" content={description} />
-  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#37404c" />
 </head>
-<body>
-  <header class="site"><div class="wrap">
-    <a class="brand" href="/">Knowii <span>Learning Paths</span></a>
-    <nav><a href="/modules">Modules</a> · <a href="/knowii">Knowii</a> · <a href="/free">Free</a> · <a href="/help">Help</a></nav>
-  </div></header>
-  <main class="wrap"><slot /></main>
-  <footer class="site"><div class="wrap">
-    Made by <a href="https://dsebastien.net">Sébastien Dubois</a> (<a href="https://www.dsebastien.net/blog/">articles</a>, <a href="https://www.dsebastien.net/newsletter/">newsletter</a>, <a href="https://www.dsebastien.net/news/">news</a>) · <a href="/knowii">How Knowii is organized</a> · <a href="https://store.dsebastien.net">Store</a> · <a href="https://www.knowii.net">Knowii</a> · <a href="https://tools.dsebastien.net">Tools</a> · <a href="/free">Free resources</a> · <a href="/affiliate">Affiliate program</a> · <a href="/help">Help</a> · <a href="mailto:sebastien@developassion.be">sebastien@developassion.be</a>
-  </div></footer>
+<body class="min-h-screen flex flex-col">
+  <header class="border-b border-white/10 bg-background/80 backdrop-blur sticky top-0 z-10">
+    <div class="mx-auto flex max-w-4xl items-center justify-between px-5 py-3">
+      <a href="/" class="font-extrabold tracking-tight text-lg">Knowii <span class="text-secondary-text">Learning Paths</span></a>
+      <nav class="flex gap-4 text-sm font-semibold muted">{nav.map(([h, l]) => <a href={h} class="hover:text-white">{l}</a>)}</nav>
+    </div>
+  </header>
+  <main class="mx-auto w-full max-w-4xl flex-1 px-5 pt-10 pb-20"><slot /></main>
+  <footer class="border-t border-white/10">
+    <div class="mx-auto max-w-4xl px-5 py-8 text-sm muted rich leading-relaxed">
+      Made by <a href="https://dsebastien.net">Sébastien Dubois</a> (<a href="https://www.dsebastien.net/blog/">articles</a>, <a href="https://www.dsebastien.net/newsletter/">newsletter</a>, <a href="https://www.dsebastien.net/news/">news</a>) · <a href="/knowii">How Knowii is organized</a> · <a href="https://store.dsebastien.net">Store</a> · <a href="https://www.knowii.net">Knowii</a> · <a href="https://tools.dsebastien.net">Tools</a> · <a href="/free">Free resources</a> · <a href="/affiliate">Affiliate program</a> · <a href="/help">Help</a> · <a href="mailto:sebastien@developassion.be">sebastien@developassion.be</a>
+    </div>
+  </footer>
 </body>
 </html>
