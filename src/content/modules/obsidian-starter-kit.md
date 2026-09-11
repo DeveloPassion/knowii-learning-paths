@@ -19,6 +19,10 @@ A ready-made Obsidian vault with the organization system, 40+ templates that fil
 
 **Knowii member:** the [Obsidian Starter Kit space](https://www.knowii.net/c/obsidian-starter-kit) has one lesson, 'User Guide and Downloads'. Everything is behind that link. Questions go in the OSK Discussions space next to it. Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
 
+## Where to ask questions
+
+However you got the kit (alone, Premium, in the Knowledge Worker Kit, the Everything Knowledge Bundle, or a Knowii tier), support lives in Knowii: the [Obsidian Starter Kit Discussions](https://www.knowii.net/c/obsidian-starter-kit-lounge). Setup questions, "is this normal?", plugin conflicts, showing your vault. There's also a general Obsidian discussions space for Obsidian beyond the kit. Not a member yet? Explorer is enough to get in.
+
 ## Do this first
 
 1. Install Obsidian if you haven't. Open the kit as a **new vault**. Do not copy its folders into an existing one; merge later, once you understand the structure.

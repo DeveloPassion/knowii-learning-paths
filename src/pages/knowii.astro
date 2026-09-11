@@ -1,0 +1,49 @@
+---
+import Base from '../layouts/Base.astro';
+const C = 'https://www.knowii.net';
+---
+<Base title="How Knowii is organized" description="The spaces of the Knowii community, by tier, and what each one is for.">
+  <h1>How Knowii is organized</h1>
+  <p class="lead">Knowii runs on Circle at <a href={C}>knowii.net</a>. Spaces are grouped by tier and by topic. Here's the map, so you know where to post and where to look.</p>
+
+  <div class="callout">Invites are sent by me, personally, within 24 to 48 hours of subscribing. Not there yet? <a href="mailto:sebastien@developassion.be">sebastien@developassion.be</a>.</div>
+
+  <h2>Public: every tier, some of it visible without an account</h2>
+  <ul>
+    <li><b>Announcements</b>: what's new. Read-only for members.</li>
+    <li><a href={`${C}/c/start-here`}><b>Start Here</b></a>: how I want the place to work. Read it first.</li>
+    <li><b>Introduce Yourself!</b>: your first post. Who you are, what your notes look like today.</li>
+    <li><b>General</b>, <b>Inspiration</b>, <b>Wins & Celebrations</b>, <b>Random</b>: conversation.</li>
+    <li><a href={`${C}/c/public-events?pastEvents=true&sort=desc&iframe=false`}><b>Public Events & Video Chat</b></a>: live rooms and public sessions, with recordings.</li>
+    <li><a href={`${C}/c/featured-resources`}><b>Featured Resources</b></a>: the checklist, the Obsidian guide, the concepts knowledge base, and the other free material.</li>
+    <li><b>Books</b>, <b>Meta</b>, <b>Affiliate Program</b>.</li>
+  </ul>
+
+  <h2>Topic discussions: every tier</h2>
+  <p>Knowledge Management (Discussions, Theory, Journaling), Obsidian (general Obsidian discussions, Show off your garden, Tools), Knowledge Work (Discussions, Future of Knowledge Work), AI, Content Creation, Zen Productivity. Post where the topic fits; I read all of them.</p>
+
+  <h2>Knowledge Builders</h2>
+  <ul>
+    <li><b>Knowledge Builders Discussions</b>, <b>Systems & Workflows</b>, <b>Ask the Community</b>.</li>
+    <li><a href={`${C}/c/challenges`}><b>Challenges</b></a>: monthly, with a deadline.</li>
+    <li><a href={`${C}/c/events-and-office-hours?pastEvents=true&sort=desc&iframe=false`}><b>Events and Office Hours</b></a>: weekly office hours, plus every masterclass recording (Journaling Deep Dive, Personal Organization 101, Clarity 101, AI Master Prompt, MCP, and the ones since).</li>
+  </ul>
+
+  <h2>Knowledge Masters</h2>
+  <ul>
+    <li><b>Knowledge Masters Discussions</b>.</li>
+    <li><a href={`${C}/c/masterminds?pastEvents=true&sort=desc&iframe=false`}><b>Masterminds</b></a>: AMAs and group coaching. Short list today; it grows with the tier.</li>
+  </ul>
+
+  <h2>Product spaces: for owners, however you bought</h2>
+  <p>If you own one of these, whether bought alone, in a bundle, or through a tier, you belong in its space. This is where support happens; faster than email, and others learn from the answer.</p>
+  <ul>
+    <li><b>Obsidian Starter Kit</b>: <a href={`${C}/c/obsidian-starter-kit-lounge`}>OSK Discussions</a> for support, questions and meeting other users; the <a href={`${C}/c/obsidian-starter-kit`}>OSK space</a> holds the user guide and downloads for members.</li>
+    <li><b>Knowledge Worker Kit</b>: discussions plus a course space pointing to the guide.</li>
+    <li><b>Voice AI</b>: <a href={`${C}/c/voice-ai-lounge`}>Voice AI Discussions</a> for support; the <a href={`${C}/c/voice-ai`}>Voice AI space</a> holds the downloads for people who bought on knowii.net.</li>
+    <li><a href={`${C}/courses`}><b>Courses</b></a>: Knowledge Management for Beginners, Obsidian Starter Course, AI Ghostwriter Guide, with a shared Courses Support & Discussions space.</li>
+  </ul>
+
+  <h2>Sidebar links worth knowing</h2>
+  <p><a href="https://notes.dsebastien.net">Knowledge Base</a> · <a href="https://concepts.dsebastien.net">Concepts</a> · PKM Wiki · <a href="https://dsebastien.net/newsletter">Newsletter</a> · <a href="https://store.dsebastien.net">Store</a> · <a href="https://tools.dsebastien.net">Tools</a> · iOS and Android apps · <a href="/affiliate">Affiliate program</a>.</p>
+</Base>
