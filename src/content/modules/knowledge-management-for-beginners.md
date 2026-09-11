@@ -18,7 +18,9 @@ Don't let "for Beginners" fool you. Beginners in PKM, not beginners in life. Ple
 
 **Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). The course videos and materials are in the library; [knowledge-management-for-beginners.com](https://knowledge-management-for-beginners.com) is only the sales page.
 
-**Knowii member:** [Courses → Knowledge Management for Beginners](https://www.knowii.net/courses) (Knowledge Master). Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
+**Everyone who owns it, whichever way:** you're invited to Knowii, and the course space under [Courses](https://www.knowii.net/courses) has the same videos with progress tracking. Knowledge Master has it unlocked already.
+
+**Questions about the course:** the [Courses Support & Discussions](https://www.knowii.net/c/courses-lounge) space. Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
 
 ## Do this first
 
