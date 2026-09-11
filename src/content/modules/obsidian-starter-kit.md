@@ -4,7 +4,7 @@ product: obsidian-starter-kit
 kind: kit
 time: "1 evening to install, 2 weeks to make it yours"
 format: "Obsidian vault + user guide + plugin"
-access: https://obsidianstarterkit.com
+access: https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.04+Creations/Products/Obsidian+Starter+Kit/Obsidian+Starter+Kit+-+User+Guide
 storeUrl: https://www.store.dsebastien.net/product/obsidian-starter-kit
 summary: "The vault I use every day, packaged: structure, templates, plugins, automations, AI skills. Everything else I teach assumes you have it open."
 ---
@@ -15,13 +15,13 @@ A ready-made Obsidian vault with the organization system, 40+ templates that fil
 
 ## Where to find it
 
-**Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). Download the vault zip. The user guide is inside it and public at [obsidianstarterkit.com](https://obsidianstarterkit.com).
+**Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). Download the vault zip. The user guide is inside the vault and also public on my notes site: [Obsidian Starter Kit - User Guide](https://notes.dsebastien.net/30+Areas/33+Permanent+notes/33.04+Creations/Products/Obsidian+Starter+Kit/Obsidian+Starter+Kit+-+User+Guide). Product site: [obsidianstarterkit.com](https://obsidianstarterkit.com).
 
 **Knowii member:** the [Obsidian Starter Kit space](https://www.knowii.net/c/obsidian-starter-kit) has one lesson, 'User Guide and Downloads'. Everything is behind that link. Questions go in the OSK Discussions space next to it. Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
 
 ## Where to ask questions
 
-However you got the kit (alone, Premium, in the Knowledge Worker Kit, the Everything Knowledge Bundle, or a Knowii tier), support lives in Knowii: the [Obsidian Starter Kit Discussions](https://www.knowii.net/c/obsidian-starter-kit-lounge). Setup questions, "is this normal?", plugin conflicts, showing your vault. There's also a general Obsidian discussions space for Obsidian beyond the kit. Not a member yet? Explorer is enough to get in.
+However you got the kit (alone, Premium, in the Knowledge Worker Kit, the Everything Knowledge Bundle, or a Knowii tier), support lives in Knowii: the [Obsidian Starter Kit Discussions](https://www.knowii.net/c/obsidian-starter-kit-lounge). Setup questions, "is this normal?", plugin conflicts, showing your vault. The [Obsidian space](https://www.knowii.net/c/obsidian) is for Obsidian beyond the kit. Not a member yet? Explorer is enough to get in.
 
 ## Do this first
 
