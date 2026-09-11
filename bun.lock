@@ -5,10 +5,10 @@
     "": {
       "name": "learning-paths",
       "dependencies": {
-        "astro": "^5.13.0",
+        "astro": "^5.18.2",
       },
       "devDependencies": {
-        "@astrojs/check": "^0.9.4",
+        "@astrojs/check": "^0.9.10",
         "typescript": "^5.6.0",
         "yaml": "^2.6.0",
       },

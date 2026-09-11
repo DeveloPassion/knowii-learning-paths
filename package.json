@@ -4,7 +4,10 @@
   "private": true,
   "type": "module",
   "description": "Learning paths for DeveloPassion / Knowii customers: the order to go through what you bought.",
-  "repository": { "type": "git", "url": "git+https://github.com/DeveloPassion/knowii-learning-paths.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeveloPassion/knowii-learning-paths.git"
+  },
   "homepage": "https://learn.knowii.net",
   "scripts": {
     "dev": "astro dev",
@@ -12,6 +15,12 @@
     "preview": "astro preview",
     "validate": "bun scripts/validate.ts"
   },
-  "dependencies": { "astro": "^5.13.0" },
-  "devDependencies": { "@astrojs/check": "^0.9.4", "typescript": "^5.6.0", "yaml": "^2.6.0" }
+  "dependencies": {
+    "astro": "^5.18.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "typescript": "^5.6.0",
+    "yaml": "^2.6.0"
+  }
 }

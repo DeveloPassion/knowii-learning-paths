@@ -21,7 +21,9 @@ I put it here in the path, right after the Knowledge Worker Kit and before the j
 
 **Bought on knowii.net:** downloads are in the [Voice AI space](https://www.knowii.net/c/voice-ai); you also get an invite to the community (limited access, enough for support).
 
-**Support, whichever way you bought:** the [Voice AI Discussions](https://www.knowii.net/c/voice-ai-lounge) space in Knowii. Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
+**Documentation:** [docs.voice-ai.knowii.net](https://docs.voice-ai.knowii.net/). Setup, models, hotkeys, troubleshooting.
+
+**Support, whichever way you bought:** issues, questions, feature requests all go to the [Voice AI Discussions](https://www.knowii.net/c/voice-ai-lounge) space in Knowii, or straight to me at sebastien@developassion.be. Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
 
 ## Do this first
 
