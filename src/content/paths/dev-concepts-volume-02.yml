@@ -1,0 +1,13 @@
+title: "Dev Concepts Volume 2"
+purchase: "Dev Concepts Volume 2 e-book"
+products: [dev-concepts-volume-02]
+storeUrl: https://developassion.gumroad.com/l/DevConcepts-Volume-02-WhatClientsNeed
+order: 31
+intro: "One short book. Read it with a note open; the exercises are the point."
+phases:
+  - title: "Read"
+    when: "Week 1"
+    steps:
+      - module: dev-concepts-volume-02
+next: >-
+  The other volume is €9.99, or both in the <a href="https://developassion.gumroad.com/l/DevConceptsStarter">Starter Bundle</a>. The <a href="https://developassion.gumroad.com/l/it-concepts-wall">IT Concepts Wall</a> maps the wider field.

@@ -1,0 +1,25 @@
+title: "Knowii · Explorer"
+purchase: "Knowii community, Explorer tier"
+products: [knowii-community, knowledge-system-checklist, beginners-guide-obsidian]
+storeUrl: https://www.store.dsebastien.net/product/knowii-community
+order: 4
+intro: "Explorer is the low-commitment way in: the community, the knowledge base, the checklist, the Obsidian guide, the PKM tools database. Enough to build a real system if you use the people around you."
+phases:
+  - title: "Show up"
+    when: "Day 1"
+    steps:
+      - module: knowii-community
+        note: "Introduce yourself. Explorers who post in week one are the ones still here in month six."
+      - module: knowledge-system-checklist
+  - title: "Get a tool"
+    when: "Week 1"
+    steps:
+      - module: beginners-guide-obsidian
+        note: "Obsidian is what most members use and what all my material assumes."
+  - title: "Learn from the room"
+    when: "Ongoing"
+    steps:
+      - module: knowii-events
+        note: "Live sessions are open to you. Recordings are Builder and Master only."
+next: >-
+  When you want the Obsidian Starter Kit and the workshop recordings, <a href="https://www.store.dsebastien.net/product/knowii-community">Knowledge Builder</a> includes both. Or buy the <a href="https://www.store.dsebastien.net/product/obsidian-starter-kit">kit</a> on its own.

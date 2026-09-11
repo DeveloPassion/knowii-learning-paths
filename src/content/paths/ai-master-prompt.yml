@@ -1,0 +1,13 @@
+title: "AI Master Prompt Workshop"
+purchase: "AI Master Prompt workshop recording"
+products: [ai-master-prompt]
+storeUrl: https://www.store.dsebastien.net/product/ai-master-prompt
+order: 20
+intro: "One recording, one system. Watch it once end to end, then apply for a week before you judge it."
+phases:
+  - title: "Watch and apply"
+    when: "Week 1"
+    steps:
+      - module: ai-master-prompt
+next: >-
+  Next: <a href="https://www.store.dsebastien.net/product/ai-ghostwriter-guide">Build Your AI Ghostwriter</a> applies the method to writing, and the <a href="https://www.store.dsebastien.net/product/model-context-protocol">MCP Masterclass</a> connects the AI to your notes.

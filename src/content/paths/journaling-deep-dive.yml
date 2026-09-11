@@ -1,0 +1,13 @@
+title: "Journaling Deep Dive"
+purchase: "Journaling Deep Dive workshop recording"
+products: [journaling-deep-dive]
+storeUrl: https://www.store.dsebastien.net/product/journaling-deep-dive
+order: 20
+intro: "One recording, one system. Watch it once end to end, then apply for a week before you judge it."
+phases:
+  - title: "Watch and apply"
+    when: "Week 1"
+    steps:
+      - module: journaling-deep-dive
+next: >-
+  Journaling is the practice; the <a href="https://www.store.dsebastien.net/product/obsidian-starter-kit">Obsidian Starter Kit</a> is where I do it, daily notes and periodic reviews included. Next workshop in the sequence: <a href="https://www.store.dsebastien.net/product/personal-organization-101">Personal Organization 101</a>. All recordings are included in <a href="https://www.store.dsebastien.net/product/knowii-community">Knowii Knowledge Builder</a>.

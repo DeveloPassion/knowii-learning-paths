@@ -1,0 +1,13 @@
+title: "Clarity 101"
+purchase: "Clarity 101 workshop recording"
+products: [clarity-101]
+storeUrl: https://www.store.dsebastien.net/product/clarity-101
+order: 20
+intro: "One recording, one system. Watch it once end to end, then apply for a week before you judge it."
+phases:
+  - title: "Watch and apply"
+    when: "Week 1"
+    steps:
+      - module: clarity-101
+next: >-
+  Your values and principles feed straight into the <a href="https://www.store.dsebastien.net/product/ai-master-prompt">AI Master Prompt</a>. All recordings are included in <a href="https://www.store.dsebastien.net/product/knowii-community">Knowii Knowledge Builder</a>.

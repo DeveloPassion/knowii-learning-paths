@@ -1,0 +1,12 @@
+title: "PKM Library"
+purchase: "PKM Library (Notion)"
+products: [pkm-library]
+storeUrl: https://www.store.dsebastien.net/product/pkm-library
+order: 23
+intro: "A reference, not a course. Bookmark it, then come back with a question."
+phases:
+  - title: "Bookmark"
+    steps:
+      - module: pkm-library
+next: >-
+  If you're looking for a system rather than a list of systems, the <a href="https://www.store.dsebastien.net/product/obsidian-starter-kit">Obsidian Starter Kit</a> is mine.

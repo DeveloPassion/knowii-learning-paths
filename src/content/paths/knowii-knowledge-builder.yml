@@ -1,0 +1,37 @@
+title: "Knowii · Knowledge Builder"
+purchase: "Knowii community, Knowledge Builder tier"
+products: [knowii-community, obsidian-starter-kit, obsidian-starter-course, clarity-101, personal-organization-101, journaling-deep-dive, ai-master-prompt, model-context-protocol, knowledge-system-checklist, beginners-guide-obsidian]
+storeUrl: https://www.store.dsebastien.net/product/knowii-community
+order: 3
+intro: "Knowledge Builder gives you the community, the Obsidian Starter Kit and Course, and every workshop recording. That's a complete system if you go through it in this order. About two months."
+phases:
+  - title: "Show up"
+    when: "Day 1"
+    steps:
+      - module: knowii-community
+      - module: knowledge-system-checklist
+      - module: beginners-guide-obsidian
+        optional: true
+  - title: "Home base"
+    when: "Weeks 1 to 2"
+    steps:
+      - module: obsidian-starter-kit
+      - module: obsidian-starter-course
+  - title: "Habits and direction"
+    when: "Weeks 3 to 6"
+    steps:
+      - module: journaling-deep-dive
+        note: "The most transformative recording in the archive. Start here among the workshops."
+      - module: personal-organization-101
+      - module: clarity-101
+  - title: "AI layer"
+    when: "Weeks 6 to 8"
+    steps:
+      - module: ai-master-prompt
+      - module: model-context-protocol
+  - title: "Keep going"
+    when: "Ongoing"
+    steps:
+      - module: knowii-events
+next: >-
+  Want the 10-hour course, the Knowledge Worker Kit and the Ghostwriter guide too? That's <a href="https://www.store.dsebastien.net/product/knowii-community">Knowledge Master</a>. Upgrade from your Gumroad subscription page; the price difference is prorated.

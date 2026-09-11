@@ -1,0 +1,25 @@
+---
+import '../styles/global.css';
+interface Props { title: string; description?: string }
+const { title, description = 'Learning paths for Knowii and DeveloPassion customers.' } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title} · Knowii Learning Paths</title>
+  <meta name="description" content={description} />
+  <meta name="robots" content="index,follow" />
+</head>
+<body>
+  <header class="site"><div class="wrap">
+    <a class="brand" href="/">Knowii <span>Learning Paths</span></a>
+    <nav><a href="/modules">All modules</a></nav>
+  </div></header>
+  <main class="wrap"><slot /></main>
+  <footer class="site"><div class="wrap">
+    Made by <a href="https://dsebastien.net">Sébastien Dubois</a> · <a href="https://store.dsebastien.net">Store</a> · <a href="https://www.store.dsebastien.net/product/knowii-community">Knowii community</a> · Questions? Ask in Knowii or reply to any of my emails.
+  </div></footer>
+</body>
+</html>

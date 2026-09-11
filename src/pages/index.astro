@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const paths = (await getCollection('paths')).sort((a, b) => a.data.order - b.data.order);
+---
+<Base title="Start here">
+  <h1>What did you get? Pick it. I'll tell you the order.</h1>
+  <p class="lead">Every product I sell fits into one system. Buying a bundle or joining Knowii gives you a lot at once, and "a lot at once" is exactly how people stall. Pick what you own below and follow the steps in order. Skip what you already know.</p>
+  <div class="grid">
+    {paths.map((p) => (
+      <a class="card" href={`/paths/${p.id}`} style="text-decoration:none;color:inherit">
+        <h3>{p.data.title}</h3>
+        <p class="meta">{p.data.purchase}</p>
+      </a>
+    ))}
+  </div>
+  <div class="callout">Not sure which one applies? Your Gumroad receipt or your Knowii tier name tells you. Still lost? Reply to any of my emails.</div>
+</Base>

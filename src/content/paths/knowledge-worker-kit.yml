@@ -1,0 +1,34 @@
+title: "Knowledge Worker Kit"
+purchase: "Knowledge Worker Kit (Gumroad)"
+products: [knowledge-worker-kit, obsidian-starter-kit, obsidian-starter-course, pkm-library, journaling-deep-dive, personal-organization-101, clarity-101, ai-master-prompt, model-context-protocol]
+storeUrl: https://www.store.dsebastien.net/product/knowledge-worker-kit
+order: 5
+intro: "The Knowledge Worker Kit comes with more bonuses than most people notice: the Obsidian Starter Kit, the Starter Course, the PKM Library and all five workshops. Check your Gumroad library. Then follow this order."
+phases:
+  - title: "Home base"
+    when: "Weeks 1 to 2"
+    steps:
+      - module: obsidian-starter-kit
+      - module: obsidian-starter-course
+  - title: "The guide"
+    when: "Weeks 3 to 5"
+    steps:
+      - module: knowledge-worker-kit
+        note: "Overview, then section 5, then the section that hurts. Not front to back."
+  - title: "Habits and direction"
+    when: "Weeks 5 to 8"
+    steps:
+      - module: journaling-deep-dive
+      - module: personal-organization-101
+      - module: clarity-101
+  - title: "AI layer"
+    when: "Weeks 8 to 10"
+    steps:
+      - module: ai-master-prompt
+      - module: model-context-protocol
+  - title: "Keep going"
+    when: "Ongoing"
+    steps:
+      - module: pkm-library
+next: >-
+  Missing from your bundle: the 10-hour <a href="https://www.store.dsebastien.net/product/knowledge-management-for-beginners">Knowledge Management for Beginners</a> course and the <a href="https://www.store.dsebastien.net/product/ai-ghostwriter-guide">Ghostwriter guide</a>. Both are in <a href="https://www.store.dsebastien.net/product/knowii-community">Knowledge Master</a>, along with the community.

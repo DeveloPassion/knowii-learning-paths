@@ -1,0 +1,11 @@
+title: "PKM Coaching"
+purchase: "PKM Coaching session"
+products: [pkm-coaching]
+storeUrl: https://www.store.dsebastien.net/product/pkm-coaching
+order: 41
+intro: "One hour, your screen, your problem. Preparation is half the value."
+phases:
+  - title: "Prepare, meet, act"
+    steps:
+      - module: pkm-coaching
+        note: "Send me your one-page problem note before the call."

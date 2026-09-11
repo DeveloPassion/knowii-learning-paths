@@ -1,0 +1,22 @@
+title: "Obsidian Starter Kit · Essentials"
+purchase: "Obsidian Starter Kit, Essentials variant (kit + user guide)"
+products: [obsidian-starter-kit]
+storeUrl: https://www.store.dsebastien.net/product/obsidian-starter-kit
+order: 7
+intro: "The vault and the user guide. Everything is documented; the trick is reading in the right order and not configuring anything for a week."
+phases:
+  - title: "Before you open the kit"
+    when: "Day 1"
+    steps:
+      - module: knowledge-system-checklist
+        note: "Free. Fifteen minutes."
+      - module: beginners-guide-obsidian
+        optional: true
+        note: "Only if Obsidian is new to you. Free."
+  - title: "Install and live in it"
+    when: "Weeks 1 to 2"
+    steps:
+      - module: obsidian-starter-kit
+        note: "New vault. User guide home page, 'Choose Your Starting Point', daily notes only for a week."
+next: >-
+  Learn better by watching? The <a href="https://www.store.dsebastien.net/product/obsidian-starter-course">Obsidian Starter Course</a> is the video version of the user guide (it's what makes Premium). Then <a href="https://www.store.dsebastien.net/product/knowledge-management-for-beginners">Knowledge Management for Beginners</a> for the thinking behind the structure.

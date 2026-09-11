@@ -1,0 +1,24 @@
+title: "Obsidian Starter Kit · Premium"
+purchase: "Obsidian Starter Kit, Premium variant (kit + course)"
+products: [obsidian-starter-kit, obsidian-starter-course]
+storeUrl: https://www.store.dsebastien.net/product/obsidian-starter-kit
+order: 6
+intro: "Kit plus course. Two weeks to a vault you understand and use daily."
+phases:
+  - title: "Before you open the kit"
+    when: "Day 1"
+    steps:
+      - module: knowledge-system-checklist
+        note: "Free. Fifteen minutes. Know what you're fixing."
+      - module: beginners-guide-obsidian
+        optional: true
+        note: "Only if Obsidian is new to you. Free."
+  - title: "Install and live in it"
+    when: "Weeks 1 to 2"
+    steps:
+      - module: obsidian-starter-kit
+        note: "New vault. Daily notes only for a week. Read before you configure."
+      - module: obsidian-starter-course
+        note: "Watch with the vault open, pause, click along."
+next: >-
+  The kit is the home base. To understand the thinking behind it, <a href="https://www.store.dsebastien.net/product/knowledge-management-for-beginners">Knowledge Management for Beginners</a> is the next step. To turn the daily note into a habit, the <a href="https://www.store.dsebastien.net/product/journaling-deep-dive">Journaling Deep Dive</a>. Both, plus the community, are in <a href="https://www.store.dsebastien.net/product/knowii-community">Knowii</a>.

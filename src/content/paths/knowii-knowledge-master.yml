@@ -1,0 +1,56 @@
+title: "Knowii · Knowledge Master"
+purchase: "Knowii community, Knowledge Master tier"
+products: [knowii-community, knowledge-worker-kit, knowledge-management-for-beginners, obsidian-starter-kit, obsidian-starter-course, ai-ghostwriter-guide, pkm-library, clarity-101, personal-organization-101, journaling-deep-dive, ai-master-prompt, model-context-protocol, beginners-guide-obsidian, knowledge-system-checklist]
+storeUrl: https://www.store.dsebastien.net/product/knowii-community
+order: 2
+intro: "Knowledge Master is everything: every course, every tool, every workshop, plus the exclusive sessions. The order below is the one I give members who ask 'where do I start?'. Community first, because that's where you'll ask the questions the rest of the path raises."
+phases:
+  - title: "Show up"
+    when: "Day 1"
+    steps:
+      - module: knowii-community
+        note: "Profile, introduction post, events calendar. Half an hour."
+      - module: knowledge-system-checklist
+        note: "Find your weakest phase."
+      - module: beginners-guide-obsidian
+        optional: true
+        note: "Only if Obsidian is new to you."
+  - title: "Home base"
+    when: "Weeks 1 to 2"
+    steps:
+      - module: obsidian-starter-kit
+        note: "Most of what I build revolves around it. Install as a new vault; daily notes only for a week."
+      - module: obsidian-starter-course
+  - title: "Understand the practice"
+    when: "Weeks 3 to 6"
+    steps:
+      - module: knowledge-management-for-beginners
+        note: "One module a week."
+  - title: "The rest of your work life"
+    when: "Weeks 6 to 8"
+    steps:
+      - module: knowledge-worker-kit
+      - module: knowii-voice-ai
+        optional: true
+        note: "Not included in the tier, but €49 well spent before the journaling workshop."
+  - title: "Habits and direction"
+    when: "Weeks 8 to 10"
+    steps:
+      - module: journaling-deep-dive
+        note: "If you had to pick one workshop, this is it."
+      - module: personal-organization-101
+      - module: clarity-101
+  - title: "AI layer"
+    when: "Weeks 10 to 12"
+    steps:
+      - module: ai-master-prompt
+      - module: ai-ghostwriter-guide
+      - module: model-context-protocol
+  - title: "Keep going"
+    when: "Ongoing"
+    steps:
+      - module: knowii-events
+        note: "Live sessions, AMAs, masterminds, group coaching. This is what your tier is really for."
+      - module: pkm-library
+next: >-
+  Stuck anywhere? Post in the community with the module name. I read everything.

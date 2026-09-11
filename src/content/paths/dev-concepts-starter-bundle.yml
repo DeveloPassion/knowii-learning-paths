@@ -1,0 +1,16 @@
+title: "Dev Concepts Starter Bundle"
+purchase: "Dev Concepts Starter Bundle (volumes 1 + 2)"
+products: [dev-concepts-starter-bundle, dev-concepts-volume-01, dev-concepts-volume-02]
+storeUrl: https://developassion.gumroad.com/l/DevConceptsStarter
+order: 30
+intro: "Mindset first, client second. Two short books, one week each."
+phases:
+  - title: "Read"
+    when: "Weeks 1 to 2"
+    steps:
+      - module: dev-concepts-volume-01
+        note: "Mark the skills list: have it, working on it, never heard of it."
+      - module: dev-concepts-volume-02
+        note: "Apply one requirements technique to what you're building this week."
+next: >-
+  Bought the coaching variant? Reply to your purchase email to book the hour. Come with one concrete question.

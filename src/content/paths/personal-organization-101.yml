@@ -1,0 +1,13 @@
+title: "Personal Organization 101"
+purchase: "Personal Organization 101 workshop recording"
+products: [personal-organization-101]
+storeUrl: https://www.store.dsebastien.net/product/personal-organization-101
+order: 20
+intro: "One recording, one system. Watch it once end to end, then apply for a week before you judge it."
+phases:
+  - title: "Watch and apply"
+    when: "Week 1"
+    steps:
+      - module: personal-organization-101
+next: >-
+  Organization tells you how; <a href="https://www.store.dsebastien.net/product/clarity-101">Clarity 101</a> tells you which things. All recordings are included in <a href="https://www.store.dsebastien.net/product/knowii-community">Knowii Knowledge Builder</a>.

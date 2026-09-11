@@ -1,0 +1,14 @@
+title: "Knowii Voice AI"
+purchase: "Knowii Voice AI license"
+products: [knowii-voice-ai]
+storeUrl: https://www.store.dsebastien.net/product/knowii-voice-ai
+order: 22
+intro: "Fifteen minutes to install. A week to notice you stopped typing."
+phases:
+  - title: "Install and use"
+    when: "Week 1"
+    steps:
+      - module: knowii-voice-ai
+        note: "First spoken entry goes in your daily note."
+next: >-
+  Fast capture is half of journaling. The other half is in the <a href="https://www.store.dsebastien.net/product/journaling-deep-dive">Journaling Deep Dive</a>.

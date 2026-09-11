@@ -1,0 +1,55 @@
+title: "Everything Knowledge Bundle"
+purchase: "Everything Knowledge Bundle (Gumroad)"
+products: [everything-knowledge-bundle, knowledge-worker-kit, knowledge-management-for-beginners, obsidian-starter-kit, obsidian-starter-course, ai-ghostwriter-guide, pkm-library, knowii-voice-ai, clarity-101, personal-organization-101, journaling-deep-dive, ai-master-prompt, model-context-protocol, beginners-guide-obsidian, knowledge-system-checklist]
+storeUrl: https://www.store.dsebastien.net/product/everything-knowledge-bundle
+order: 1
+intro: "You own everything I've made, and that's the problem: fourteen products, no obvious first move. Here's the order I'd take if I were you. Roughly three months if you give it a few hours a week. Skip what you already know; the checkboxes remember where you are."
+phases:
+  - title: "Orient"
+    when: "Day 1"
+    steps:
+      - module: knowledge-system-checklist
+        note: "Fifteen minutes. Find your weakest phase; that's where to slow down later."
+      - module: beginners-guide-obsidian
+        optional: true
+        note: "Only if Obsidian is new to you."
+  - title: "Home base"
+    when: "Weeks 1 to 2"
+    steps:
+      - module: obsidian-starter-kit
+        note: "Install as a new vault. Daily notes only for the first week."
+      - module: obsidian-starter-course
+        note: "Watch with the vault open. Don't skip the methods section."
+  - title: "Understand the practice"
+    when: "Weeks 3 to 6"
+    steps:
+      - module: knowledge-management-for-beginners
+        note: "One module a week. Do the exercises in your real vault."
+  - title: "The rest of your work life"
+    when: "Weeks 6 to 8"
+    steps:
+      - module: knowledge-worker-kit
+        note: "Overview + section 5 first. Then the section that hurts."
+      - module: knowii-voice-ai
+        note: "Install before the journaling workshop. Capture friction is what kills the habit."
+  - title: "Habits and direction"
+    when: "Weeks 8 to 10"
+    steps:
+      - module: journaling-deep-dive
+        note: "Watch in one sitting. Seven days of interstitial entries. First weekly review."
+      - module: personal-organization-101
+      - module: clarity-101
+  - title: "AI layer"
+    when: "Weeks 10 to 12"
+    steps:
+      - module: ai-master-prompt
+        note: "Your Clarity 101 outputs go straight into the master prompt."
+      - module: ai-ghostwriter-guide
+      - module: model-context-protocol
+  - title: "Keep going"
+    when: "Ongoing"
+    steps:
+      - module: pkm-library
+        note: "Reference. Open it when you have a question, not before."
+next: >-
+  You bought the bundle, so you're not in Knowii yet. The community is where these products get discussed, updated and extended live. <a href="https://www.store.dsebastien.net/product/knowii-community">Explorer is €14.99 a quarter</a>; you already own everything the higher tiers bundle.

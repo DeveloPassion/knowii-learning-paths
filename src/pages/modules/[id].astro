@@ -1,0 +1,23 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+export async function getStaticPaths() {
+  const mods = await getCollection('modules');
+  return mods.map((m) => ({ params: { id: m.id }, props: { m } }));
+}
+const { m } = Astro.props;
+const { Content } = await render(m);
+const paths = (await getCollection('paths')).filter((p) => p.data.phases.some((ph) => ph.steps.some((s) => s.module === m.id)));
+---
+<Base title={m.data.title} description={m.data.summary}>
+  <p class="meta"><span class="tag">{m.data.kind}</span><span class="tag">{m.data.time}</span><span class="tag">{m.data.format}</span></p>
+  <h1>{m.data.title}</h1>
+  <p class="lead">{m.data.summary}</p>
+  <p>
+    {m.data.access && <a href={m.data.access}>Open it →</a>}
+    {m.data.access && m.data.storeUrl && ' · '}
+    {m.data.storeUrl && <a href={m.data.storeUrl}>Store page</a>}
+  </p>
+  <div class="prose"><Content /></div>
+  {paths.length > 0 && (<><h2>Part of these paths</h2><ul>{paths.map((p) => <li><a href={`/paths/${p.id}`}>{p.data.title}</a></li>)}</ul></>)}
+</Base>

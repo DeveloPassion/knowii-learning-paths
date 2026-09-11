@@ -1,0 +1,18 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+const mods = (await getCollection('modules')).sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+<Base title="All modules">
+  <h1>All modules</h1>
+  <p class="lead">One page per product. Paths are built from these.</p>
+  <div class="grid">
+    {mods.map((m) => (
+      <a class="card" href={`/modules/${m.id}`} style="text-decoration:none;color:inherit">
+        <h3>{m.data.title}</h3>
+        <p class="meta"><span class="tag">{m.data.kind}</span><span class="tag">{m.data.time}</span></p>
+        <p>{m.data.summary}</p>
+      </a>
+    ))}
+  </div>
+</Base>

@@ -1,0 +1,20 @@
+title: "Obsidian Starter Course"
+purchase: "Obsidian Starter Course (standalone)"
+products: [obsidian-starter-course]
+storeUrl: https://www.store.dsebastien.net/product/obsidian-starter-course
+order: 9
+intro: "2h20 of video on Obsidian and the methods behind a vault that scales. Watch it over a week with Obsidian open."
+phases:
+  - title: "Before"
+    when: "Day 1"
+    steps:
+      - module: beginners-guide-obsidian
+        optional: true
+        note: "Free. Skip if you've used Obsidian for a few weeks."
+  - title: "The course"
+    when: "Week 1"
+    steps:
+      - module: obsidian-starter-course
+        note: "Basics and vault tour first, clicking along. Then the methods section; don't skip it."
+next: >-
+  The course uses the <a href="https://www.store.dsebastien.net/product/obsidian-starter-kit">Obsidian Starter Kit</a> throughout. Owning it turns the video into a hands-on tutorial instead of a demo.

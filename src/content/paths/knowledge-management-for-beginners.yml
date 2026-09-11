@@ -1,0 +1,19 @@
+title: "Knowledge Management for Beginners"
+purchase: "Knowledge Management for Beginners course"
+products: [knowledge-management-for-beginners]
+storeUrl: https://www.store.dsebastien.net/product/knowledge-management-for-beginners
+order: 8
+intro: "Ten hours of video. One module a week is the pace that sticks; a weekend binge is the pace people regret."
+phases:
+  - title: "Set up"
+    when: "Day 1"
+    steps:
+      - module: knowledge-system-checklist
+        note: "Free. Baseline before the course, redo after."
+  - title: "The course"
+    when: "Weeks 1 to 9"
+    steps:
+      - module: knowledge-management-for-beginners
+        note: "Modules 1 and 2 in one sitting, then one per week. Keep a 'what I'm changing' note."
+next: >-
+  The course explains the practice. The <a href="https://www.store.dsebastien.net/product/obsidian-starter-kit">Obsidian Starter Kit</a> is the practice, already built. Module 7 makes a lot more sense with it open.

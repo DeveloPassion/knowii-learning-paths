@@ -1,0 +1,56 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, getEntry } from 'astro:content';
+export async function getStaticPaths() {
+  const paths = await getCollection('paths');
+  return paths.map((p) => ({ params: { id: p.id }, props: { p } }));
+}
+const { p } = Astro.props;
+const phases = await Promise.all(p.data.phases.map(async (ph) => ({
+  ...ph,
+  steps: await Promise.all(ph.steps.map(async (s) => {
+    const m = await getEntry('modules', s.module);
+    if (!m) throw new Error(`Path ${p.id}: unknown module ${s.module}`);
+    return { ...s, m };
+  })),
+})));
+const total = phases.reduce((n, ph) => n + ph.steps.length, 0);
+---
+<Base title={p.data.title} description={p.data.intro}>
+  <p class="meta">{p.data.purchase}{p.data.storeUrl && <> · <a href={p.data.storeUrl}>store page</a></>}</p>
+  <h1>{p.data.title}</h1>
+  <p class="lead">{p.data.intro}</p>
+  <div class="progress"><span><b data-done>0</b>/{total} done</span><div class="bar"><i data-bar></i></div><button class="reset" data-reset>reset</button></div>
+  {phases.map((ph, i) => (
+    <section class="phase">
+      {ph.when && <div class="when">{ph.when}</div>}
+      <h2 style="margin-top:.2rem">{i + 1}. {ph.title}</h2>
+      {ph.steps.map((s) => (
+        <div class="step" data-step={`${p.id}:${s.module}`}>
+          <input type="checkbox" aria-label={`Done: ${s.m.data.title}`} />
+          <div class="body">
+            <h3><a href={`/modules/${s.module}`}>{s.m.data.title}</a> {s.optional && <span class="optional">(optional)</span>}</h3>
+            <p class="meta">{s.m.data.time} · {s.m.data.format}{s.m.data.access && <> · <a href={s.m.data.access}>open</a></>}</p>
+            {s.note && <p class="note">{s.note}</p>}
+          </div>
+        </div>
+      ))}
+    </section>
+  ))}
+  {p.data.next && <div class="callout" set:html={p.data.next} />}
+  <script>
+    const key = 'lp:' + location.pathname;
+    const steps = [...document.querySelectorAll<HTMLElement>('[data-step]')];
+    const load = (): Record<string, boolean> => { try { return JSON.parse(localStorage.getItem(key) || '{}'); } catch { return {}; } };
+    let state = load();
+    const paint = () => {
+      let done = 0;
+      steps.forEach((el) => { const id = el.dataset.step!; const on = !!state[id]; (el.querySelector('input') as HTMLInputElement).checked = on; el.classList.toggle('done', on); if (on) done++; });
+      document.querySelector('[data-done]')!.textContent = String(done);
+      (document.querySelector('[data-bar]') as HTMLElement).style.width = steps.length ? `${(100 * done) / steps.length}%` : '0';
+    };
+    steps.forEach((el) => el.querySelector('input')!.addEventListener('change', (e) => { state[el.dataset.step!] = (e.target as HTMLInputElement).checked; try { localStorage.setItem(key, JSON.stringify(state)); } catch {} paint(); }));
+    document.querySelector('[data-reset]')!.addEventListener('click', () => { state = {}; try { localStorage.removeItem(key); } catch {} paint(); });
+    paint();
+  </script>
+</Base>

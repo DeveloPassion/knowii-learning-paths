@@ -1,0 +1,13 @@
+title: "MCP Masterclass"
+purchase: "Model Context Protocol masterclass recording"
+products: [model-context-protocol]
+storeUrl: https://www.store.dsebastien.net/product/model-context-protocol
+order: 20
+intro: "One recording, one system. Watch it once end to end, then apply for a week before you judge it."
+phases:
+  - title: "Watch and apply"
+    when: "Week 1"
+    steps:
+      - module: model-context-protocol
+next: >-
+  The <a href="https://www.store.dsebastien.net/product/obsidian-starter-kit">Obsidian Starter Kit</a> ships with MCP support and AI skills, so the setup from the masterclass is mostly done for you.

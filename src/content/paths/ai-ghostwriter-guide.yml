@@ -1,0 +1,14 @@
+title: "Build Your AI Ghostwriter"
+purchase: "Build Your AI Ghostwriter guide"
+products: [ai-ghostwriter-guide]
+storeUrl: https://www.store.dsebastien.net/product/ai-ghostwriter-guide
+order: 21
+intro: "A weekend to set up, then it improves with every draft you edit."
+phases:
+  - title: "Build the system"
+    when: "Weekend 1"
+    steps:
+      - module: ai-ghostwriter-guide
+        note: "Writing style analysis first. Then the other five parts in order."
+next: >-
+  The <a href="https://www.store.dsebastien.net/product/ai-master-prompt">AI Master Prompt workshop</a> is the general version of this idea; the <a href="https://www.store.dsebastien.net/product/model-context-protocol">MCP Masterclass</a> removes the copy-paste. Both are in <a href="https://www.store.dsebastien.net/product/knowii-community">Knowii Knowledge Builder</a>.
