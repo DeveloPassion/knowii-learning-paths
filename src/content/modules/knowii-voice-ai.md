@@ -17,7 +17,9 @@ I put it here in the path, right after the Knowledge Worker Kit and before the j
 
 ## Where to find it
 
-[voice-ai.knowii.net](https://voice-ai.knowii.net) for downloads and docs. Your license key is in your Gumroad library.
+**Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). License key in the library; downloads and docs at [voice-ai.knowii.net](https://voice-ai.knowii.net).
+
+**Knowii member:** Voice AI isn't part of any tier, but owners get the [Voice AI space](https://www.knowii.net/courses) for support and updates. Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
 
 ## Do this first
 

@@ -16,7 +16,9 @@ When customers ask me where to start, I usually say here. Unless you already kno
 
 ## Where to find it
 
-Your Gumroad library. Knowledge Builder and Knowledge Master members: the recording is in the Knowii events archive.
+**Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). Video, diagram and notes in the library.
+
+**Knowii member:** [Events and Office Hours archive](https://www.knowii.net/c/events-and-office-hours?pastEvents=true&sort=desc&iframe=false), 'Watch recording' (Knowledge Builder and Knowledge Master). Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
 
 ## Do this first
 

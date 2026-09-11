@@ -4,7 +4,6 @@ product: knowledge-management-for-beginners
 kind: course
 time: "10+ hours, one module per week works well"
 format: "Video course, 9 modules"
-access: https://knowledge-management-for-beginners.com
 storeUrl: https://store.dsebastien.net/product/knowledge-management-for-beginners
 summary: "The why and the how of Personal Knowledge Management, from first principles. This is the course that explains the decisions baked into the Starter Kit."
 ---
@@ -17,7 +16,9 @@ Don't let "for Beginners" fool you. Beginners in PKM, not beginners in life. Ple
 
 ## Where to find it
 
-[knowledge-management-for-beginners.com](https://knowledge-management-for-beginners.com). Log in with your Gumroad email. Knowledge Master members: same place, your access is already provisioned.
+**Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). The course videos and materials are in the library; [knowledge-management-for-beginners.com](https://knowledge-management-for-beginners.com) is only the sales page.
+
+**Knowii member:** [Courses → Knowledge Management for Beginners](https://www.knowii.net/courses) (Knowledge Master). Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
 
 ## Do this first
 

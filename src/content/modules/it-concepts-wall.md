@@ -14,7 +14,7 @@ A curated board of IT concepts and quality resources for each, organized by area
 
 ## Where to find it
 
-The Trello invite link is in your Gumroad library.
+**Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). The Trello invite link is in the library.
 
 ## Do this first
 

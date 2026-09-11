@@ -4,7 +4,7 @@ product: knowii-community
 kind: community
 time: "Ongoing; 1 to 2 hours a month"
 format: "Live sessions, recordings, monthly challenges, newsletter archive"
-access: https://notes.dsebastien.net/30+Areas/34+MOCs/Knowii+Community+Events
+access: https://www.knowii.net/c/events-and-office-hours?pastEvents=true&sort=desc&iframe=false
 summary: "The living part of Knowii: live masterclasses and Q&As, every past recording, monthly challenges with a deadline, and 200+ newsletter editions. This is how the path keeps going after the last module."
 ---
 
@@ -14,7 +14,15 @@ Everything in Knowii that happens on a calendar. Live sessions (masterclasses, w
 
 ## Where to find it
 
-The events space in [knowii.net](https://www.knowii.net). The public list of past events with descriptions is at [notes.dsebastien.net](https://notes.dsebastien.net/30+Areas/34+MOCs/Knowii+Community+Events).
+Three archives, by tier. Each past event has a 'Watch recording' button when a recording exists.
+
+- [Public Events & Video Chat](https://www.knowii.net/c/public-events?pastEvents=true&sort=desc&iframe=false): open to everyone, even without an account. Live rooms, public sessions.
+- [Events and Office Hours](https://www.knowii.net/c/events-and-office-hours?pastEvents=true&sort=desc&iframe=false): Knowledge Builder and Knowledge Master. Weekly office hours plus every masterclass recording (Journaling, Personal Organization, Clarity, AI Master Prompt, MCP, and what came after).
+- [Masterminds](https://www.knowii.net/c/masterminds?pastEvents=true&sort=desc&iframe=false): Knowledge Master. AMAs and group coaching. Still a short list; it grows with the tier.
+
+Bought the Knowledge Worker Kit or a workshop on Gumroad instead? Your recordings are in your [Gumroad library](https://gumroad.com/library). You're welcome in Knowii, but the two paid archives need a Knowledge Builder or Knowledge Master subscription.
+
+The public write-up of every event (agenda, resources, links) is on my notes site: [Knowii Community Events](https://notes.dsebastien.net/30+Areas/34+Maps/34.01+MoCs/Knowii+Community+Events).
 
 ## Do this first
 
@@ -24,7 +32,7 @@ Register for the next live session, whatever the topic. Showing up live once cha
 
 - Join the current monthly challenge. It gives you a deadline for one concrete improvement to your system.
 - Browse the recordings archive by topic when a module leaves you with a question. Odds are I answered it in a Q&A.
-- Newsletter archive: search it. Two hundred plus editions on knowledge management, knowledge work, productivity and personal organization. It's a second knowledge base.
+- Newsletter archive: every edition is free at [dsebastien.net/newsletter](https://dsebastien.net/newsletter). Two hundred plus, on knowledge management, knowledge work, productivity and personal organization. Search it before asking; odds are I wrote about it.
 
 ## Skip it if
 

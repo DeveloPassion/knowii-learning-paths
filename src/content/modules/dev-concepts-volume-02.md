@@ -15,7 +15,7 @@ The second volume: understanding what the client or user actually needs before w
 
 ## Where to find it
 
-Your Gumroad library.
+**Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). PDF in the library; updates land in the same place.
 
 ## Do this first
 

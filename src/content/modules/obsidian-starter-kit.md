@@ -15,7 +15,9 @@ A ready-made Obsidian vault with the organization system, 40+ templates that fil
 
 ## Where to find it
 
-Download the vault from your Gumroad library. The user guide lives inside the vault and online at [obsidianstarterkit.com](https://obsidianstarterkit.com). Premium buyers also have the Obsidian Starter Course in the same library.
+**Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). Download the vault zip. The user guide is inside it and public at [obsidianstarterkit.com](https://obsidianstarterkit.com).
+
+**Knowii member:** the [Obsidian Starter Kit space](https://www.knowii.net/c/obsidian-starter-kit) has one lesson, 'User Guide and Downloads'. Everything is behind that link. Questions go in the OSK Discussions space next to it. Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
 
 ## Do this first
 

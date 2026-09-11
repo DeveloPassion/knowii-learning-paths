@@ -38,6 +38,7 @@ const total = phases.reduce((n, ph) => n + ph.steps.length, 0);
     </section>
   ))}
   {p.data.next && <div class="callout" set:html={p.data.next} />}
+  <p class="meta">Stuck? <a href="/help">Help</a>. Liked it? <a href="/affiliate">Earn 40% recommending it</a>.</p>
   <script>
     const key = 'lp:' + location.pathname;
     const steps = [...document.querySelectorAll<HTMLElement>('[data-step]')];

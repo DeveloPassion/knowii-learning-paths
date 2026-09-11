@@ -14,7 +14,9 @@ Two hours and twenty minutes of me walking through Obsidian and the Starter Kit:
 
 ## Where to find it
 
-Your Gumroad library. If you have OSK Premium, the Knowledge Worker Kit, or a Knowii paid tier, it's already there.
+**Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). OSK Premium, Knowledge Worker Kit and Everything Knowledge Bundle buyers: same library, separate product.
+
+**Knowii member:** [Courses → Obsidian Starter Course](https://www.knowii.net/courses) (Knowledge Builder and Knowledge Master). Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
 
 ## Do this first
 

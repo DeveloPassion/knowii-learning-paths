@@ -14,7 +14,7 @@ A one-on-one session where we look at your setup, your workflow, what's stuck, a
 
 ## Where to find it
 
-Book from the [store page](https://store.dsebastien.net/product/pkm-coaching). If your product came with a coaching hour (some Dev Concepts variants do), reply to your purchase email to schedule.
+Book from the [store page](https://store.dsebastien.net/product/pkm-coaching). If your product came with a coaching hour (some Dev Concepts variants do), reply to your purchase email or write to sebastien@developassion.be to schedule.
 
 ## Do this first
 

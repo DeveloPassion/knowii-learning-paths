@@ -15,7 +15,7 @@ The first volume of the Dev Concepts series: the mindset volume. What software c
 
 ## Where to find it
 
-Your Gumroad library. Updates are free and land in the same place.
+**Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). PDF in the library; updates land in the same place.
 
 ## Do this first
 

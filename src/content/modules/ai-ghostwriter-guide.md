@@ -14,7 +14,9 @@ The system I use to have AI draft my newsletters, articles and posts in my voice
 
 ## Where to find it
 
-Your Gumroad library. Knowledge Master members have it in their bonuses.
+**Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). The guide, prompts and templates are in the library.
+
+**Knowii member:** [Courses → AI Ghostwriter Guide](https://www.knowii.net/courses) (Knowledge Master). Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
 
 ## Do this first
 

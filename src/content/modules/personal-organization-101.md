@@ -14,7 +14,9 @@ A 90-minute workshop on Personal Organization as a whole. Not a task app tutoria
 
 ## Where to find it
 
-Your Gumroad library, or the Knowii events archive for Knowledge Builder and Knowledge Master members.
+**Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). Video and materials in the library.
+
+**Knowii member:** [Events and Office Hours archive](https://www.knowii.net/c/events-and-office-hours?pastEvents=true&sort=desc&iframe=false) (Knowledge Builder and Knowledge Master). Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
 
 ## Do this first
 
