@@ -14,7 +14,7 @@ A curated board of IT concepts and quality resources for each, organized by area
 
 ## Where to find it
 
-**Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). The Trello invite link is in the library.
+Nothing to download. After you buy, I add you to the Trello board myself, within 24 to 48 hours, using the email you paid with. Check that inbox (and spam) for the Trello invitation. Nothing after 48 hours? sebastien@developassion.be.
 
 ## Do this first
 

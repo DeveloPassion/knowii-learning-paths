@@ -3,7 +3,7 @@ purchase: "IT Concepts Wall (Trello board)"
 products: [it-concepts-wall]
 storeUrl: https://developassion.gumroad.com/l/it-concepts-wall
 order: 32
-intro: "A map, not a course. Scan your area, pick three things you can't explain."
+intro: "A map, not a course. Wait for my Trello invite (24 to 48 hours), then scan your area and pick three things you can't explain."
 phases:
   - title: "Scan"
     steps:
