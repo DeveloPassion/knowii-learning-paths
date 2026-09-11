@@ -9,7 +9,7 @@ phases:
     when: "Day 1"
     steps:
       - module: knowii-community
-      - module: knowledge-system-checklist
+        note: "Profile, introduction post, then bookmark Announcements and check in weekly: notifications don't reliably go out and the roundup email misses most of it."      - module: knowledge-system-checklist
       - module: beginners-guide-obsidian
         optional: true
   - title: "Home base"

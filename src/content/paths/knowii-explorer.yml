@@ -9,7 +9,7 @@ phases:
     when: "Day 1"
     steps:
       - module: knowii-community
-        note: "Introduce yourself. Explorers who post in week one are the ones still here in month six."
+        note: "Profile, introduction post, then bookmark Announcements and check in weekly: notifications don't reliably go out and the roundup email misses most of it."
       - module: knowledge-system-checklist
   - title: "Get a tool"
     when: "Week 1"
