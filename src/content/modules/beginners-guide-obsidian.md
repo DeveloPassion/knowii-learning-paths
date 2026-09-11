@@ -15,9 +15,13 @@ A free guide for people who just installed Obsidian, or are about to. Vaults and
 
 ## Where to find it
 
-**Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). Also [readable online](https://www.dsebastien.net/free-beginners-guide-to-mastering-obsidian/), no account needed.
+**Anyone:** [read it online](https://www.dsebastien.net/free-beginners-guide-to-mastering-obsidian/), no account needed. That's the fastest route.
 
-**Knowii member:** [Featured Resources](https://www.knowii.net/c/featured-resources), open to every tier. Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
+**Newsletter subscriber:** the download link was in the welcome email.
+
+**Got it on Gumroad or the store:** in your purchase email and in your [Gumroad library](https://gumroad.com/library).
+
+**Bundled with something else (a Knowii tier, the Everything Knowledge Bundle, the Knowledge Worker Kit):** not delivered automatically. Ask me: sebastien@developassion.be.
 
 ## Do this first
 

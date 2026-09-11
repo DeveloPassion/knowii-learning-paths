@@ -14,9 +14,11 @@ A free checklist covering the eight phases of building a knowledge system: found
 
 ## Where to find it
 
-**Bought on Gumroad or the store:** [your Gumroad library](https://gumroad.com/library). Free; grab it from the [store](https://store.dsebastien.net/product/knowledge-system-checklist) if it's not there yet.
+**Newsletter subscriber:** the download link was in the welcome email. Search your inbox for "checklist".
 
-**Knowii member:** [Featured Resources](https://www.knowii.net/c/featured-resources), open to every tier. Knowii members get their invites from me personally, within 24 to 48 hours of subscribing. Nothing yet? Write to sebastien@developassion.be.
+**Got it on Gumroad or the store (it's free there):** in your purchase email and in your [Gumroad library](https://gumroad.com/library). Not there yet? [Grab it from the store](https://store.dsebastien.net/product/knowledge-system-checklist).
+
+**Bundled with something else (a Knowii tier, the Everything Knowledge Bundle, the Knowledge Worker Kit):** it isn't dropped into your account automatically. Ask me: sebastien@developassion.be, and I'll send the link.
 
 ## Do this first
 
