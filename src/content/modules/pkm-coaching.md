@@ -12,13 +12,15 @@ summary: "An hour with me looking at your actual system and your actual problem.
 
 A one-on-one session where we look at your setup, your workflow, what's stuck, and fix it together. No slides. Your screen, your vault, your questions.
 
-## Where to find it
+## How it works
 
-Book from the [store page](https://store.dsebastien.net/product/pkm-coaching). If your product came with a coaching hour (some Dev Concepts variants do), reply to your purchase email or write to sebastien@developassion.be to schedule.
+Within 24 to 48 hours of your purchase you get an email from me with a Calendly link to pick a slot, and a few questions: your background, your situation, what exactly you want help with. Answer them properly. That's what turns an hour of "so, tell me about your setup" into an hour of fixing the actual thing.
+
+Book from the [store page](https://store.dsebastien.net/product/pkm-coaching). Some Dev Concepts and IT Concepts Wall variants include an hour; same email, same process. No email after 48 hours? sebastien@developassion.be.
 
 ## Do this first
 
-Before the call, write one note: what you tried, what happens, what you expected. Send it to me. Half the value of a session is the preparation.
+Reply to my email with real answers, then write one note: what you tried, what happens, what you expected. Send it before the call. Half the value of a session is the preparation.
 
 ## Then
 
