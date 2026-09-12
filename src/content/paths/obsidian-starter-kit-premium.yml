@@ -20,5 +20,8 @@ phases:
         note: "New vault. Daily notes only for a week. Read before you configure."
       - module: obsidian-starter-course
         note: "Watch with the vault open, pause, click along."
+      - module: obsidian-automation-guide
+        optional: true
+        note: "Free. Part I now; the rest once the vault has run for a month."
 next: >-
   The kit is the home base. To understand the thinking behind it, <a href="https://www.store.dsebastien.net/product/knowledge-management-for-beginners">Knowledge Management for Beginners</a> is the next step. To turn the daily note into a habit, the <a href="https://www.store.dsebastien.net/product/journaling-deep-dive">Journaling Deep Dive</a>. Both, plus the community, are in <a href="https://www.store.dsebastien.net/product/knowii-community">Knowii</a>.

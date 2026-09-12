@@ -18,6 +18,9 @@ phases:
     steps:
       - module: obsidian-starter-kit
       - module: obsidian-starter-course
+      - module: obsidian-automation-guide
+        optional: true
+        note: "Free. Part I now; the rest once the vault has run for a month."
   - title: "Habits and direction"
     when: "Weeks 3 to 6"
     steps:

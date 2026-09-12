@@ -21,6 +21,9 @@ phases:
       - module: obsidian-starter-kit
         note: "Most of what I build revolves around it. Install as a new vault; daily notes only for a week."
       - module: obsidian-starter-course
+      - module: obsidian-automation-guide
+        optional: true
+        note: "Free. Part I now; the rest once the vault has run for a month."
   - title: "Understand the practice"
     when: "Weeks 3 to 6"
     steps:

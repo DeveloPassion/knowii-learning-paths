@@ -1,6 +1,6 @@
 title: "Free resources"
-purchase: "Beginner's Guide to Obsidian and/or the Knowledge Management System Checklist"
-products: [beginners-guide-obsidian, knowledge-system-checklist]
+purchase: "Beginner's Guide to Obsidian, the Knowledge Management System Checklist and/or the Complete Guide to Obsidian Automation"
+products: [beginners-guide-obsidian, knowledge-system-checklist, obsidian-automation-guide]
 order: 40
 intro: "You grabbed the free stuff. Good. Here's how to get the most out of it in about an hour, and what to do after."
 phases:
@@ -12,5 +12,10 @@ phases:
     when: "1 hour"
     steps:
       - module: beginners-guide-obsidian
+  - title: "Later, once the vault runs"
+    when: "Month 2+"
+    steps:
+      - module: obsidian-automation-guide
+        note: "Part I now, the rest when you have a recurring chore to kill. Automating too early is the classic mistake."
 next: >-
   Next step depends on the checklist. No system yet: the <a href="https://www.store.dsebastien.net/product/obsidian-starter-kit">Obsidian Starter Kit</a>. Have a system, want to understand the practice: <a href="https://www.store.dsebastien.net/product/knowledge-management-for-beginners">Knowledge Management for Beginners</a>. Want people: <a href="https://www.store.dsebastien.net/product/knowii-community">Knowii Explorer</a>, €14.99 a quarter.

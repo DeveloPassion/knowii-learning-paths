@@ -10,6 +10,9 @@ phases:
     steps:
       - module: obsidian-starter-kit
       - module: obsidian-starter-course
+      - module: obsidian-automation-guide
+        optional: true
+        note: "Free. Part I now; the rest once the vault has run for a month."
   - title: "The guide"
     when: "Weeks 3 to 5"
     steps:
