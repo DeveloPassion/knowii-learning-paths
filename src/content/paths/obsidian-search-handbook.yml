@@ -9,7 +9,7 @@ phases:
     when: "Day 1"
     steps:
       - module: obsidian-search-handbook
-        note: "Read \"How to use this book\", then run the 20-query test and write down your score."
+        note: "Read \"How to use this handbook\", then run the 20-query test and write down your score."
   - title: "The makeover"
     when: "Weeks 2 to 6"
     steps:
@@ -17,4 +17,4 @@ phases:
         optional: true
         note: "Free. Appendix A has it all; the PDF is handy to keep open next to the vault."
 next: >-
-  The book relies on note types, templates, properties and Bases. The <a href="https://www.store.dsebastien.net/product/obsidian-starter-kit">Obsidian Starter Kit</a> has them already built, so the makeover starts from a vault designed to be found.
+  The book relies on note types, templates, properties and Bases. The <a href="https://www.store.dsebastien.net/product/obsidian-starter-kit">Obsidian Starter Kit</a> has them already built, so you start the makeover with them in place instead of building them first.

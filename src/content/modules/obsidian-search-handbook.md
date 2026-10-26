@@ -10,7 +10,7 @@ summary: "How to find any note you already wrote: note design first, then built-
 
 ## What it is
 
-My book on getting your notes back. Twelve chapters, each with a "Try this" exercise: note design (names, aliases, types, metadata), vault structure, Obsidian's built-in search, navigation, plugins, the terminal (`ripgrep`, `fzf`, the Obsidian CLI), AI search (keyword, semantic, hybrid, agentic) and resurfacing. Appendices hold all the cheat sheets in one place and a comparison of the tools with my search order.
+My book on getting your notes back. It's the method I use on the vault I run my business from (about 30,000 notes). Twelve chapters, starting with the notes themselves (names, aliases, types, metadata, vault structure), then Obsidian's built-in search, navigation, plugins, the terminal (`ripgrep`, `fzf`, the Obsidian CLI), AI search (keyword, semantic, hybrid, agentic) and resurfacing. Every chapter ends with a "Try this" exercise. Appendix A puts all the cheat sheets in one place; Appendix B compares the tools and gives the order I search in myself.
 
 The Complete edition adds the Findability Starter Pack (5 note templates, 6 Bases, 35 saved searches, terminal scripts, a `qmd` configuration, an `AGENTS.md` snippet) and six printable worksheets, including the 20-query test and the 30-day makeover tracker.
 
@@ -24,12 +24,12 @@ The Complete edition adds the Findability Starter Pack (5 note templates, 6 Base
 
 ## Do this first
 
-Read "How to use this book", then run the 20-query test from the worksheets on your own vault. Write down the score. That's your baseline, and it tells you which chapters matter for you.
+Read "How to use this handbook", then run the 20-query test on your own vault (Complete edition: it's one of the worksheets). Write down the score. That's your baseline, and it tells you which chapters matter for YOU.
 
 ## Then
 
 - Chapters on note design and structure first, even if you came for AI search. Findability is decided when you write the note, not when you search for it.
-- Then the 30-day makeover: 15 minutes a day on the vault you already have. No restart.
+- Then the 30-day makeover from chapter 4: 15 minutes a day on the vault you already have. No restart.
 - Redo the 20-query test at the end. Same queries, compare the two scores.
 - Terminal and AI chapters once the notes are in shape. An agent searching a messy vault returns mess faster.
 

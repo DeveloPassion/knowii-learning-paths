@@ -32,7 +32,7 @@ phases:
         note: "Complete edition. 20-query test now, the 30-day makeover once the vault has a few hundred notes."
       - module: obsidian-search-cheat-sheet
         optional: true
-        note: "Free, and Appendix A of the book has it all. Ask me if you want the PDF."
+        note: "Appendix A of the book has it all; the PDF is handy to keep open next to the vault. Same Gumroad library."
   - title: "The rest of your work life"
     when: "Weeks 6 to 8"
     steps:

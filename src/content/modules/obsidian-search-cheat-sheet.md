@@ -19,7 +19,7 @@ A few pages to keep next to your vault. The commands and operators that matter f
 
 **Got it on Gumroad or the store (it's free there):** your purchase email and your [Gumroad library](https://gumroad.com/library). Not there yet? [Grab it from the store](https://www.store.dsebastien.net/product/obsidian-search-cheat-sheet).
 
-**Bundled with something else (the Everything Knowledge Bundle):** it isn't dropped into your account automatically. Ask me: sebastien@developassion.be, and I'll send the link.
+**Everything Knowledge Bundle:** it's in your [Gumroad library](https://gumroad.com/library), next to the Handbook.
 
 ## Do this first
 
