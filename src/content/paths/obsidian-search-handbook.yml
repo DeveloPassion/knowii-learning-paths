@@ -1,0 +1,20 @@
+title: "The Obsidian Search Handbook"
+purchase: "The Obsidian Search Handbook (Book or Complete edition)"
+products: [obsidian-search-handbook]
+storeUrl: https://www.store.dsebastien.net/product/obsidian-search-handbook
+order: 10
+intro: "254 pages, but not a read-once book. Baseline first, then the chapters, then 30 days of fixing the vault you already have."
+phases:
+  - title: "Baseline"
+    when: "Day 1"
+    steps:
+      - module: obsidian-search-handbook
+        note: "Read \"How to use this book\", then run the 20-query test and write down your score."
+  - title: "The makeover"
+    when: "Weeks 2 to 6"
+    steps:
+      - module: obsidian-search-cheat-sheet
+        optional: true
+        note: "Free. Appendix A has it all; the PDF is handy to keep open next to the vault."
+next: >-
+  The book relies on note types, templates, properties and Bases. The <a href="https://www.store.dsebastien.net/product/obsidian-starter-kit">Obsidian Starter Kit</a> has them already built, so the makeover starts from a vault designed to be found.

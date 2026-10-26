@@ -1,6 +1,6 @@
 title: "Free resources"
-purchase: "Beginner's Guide to Obsidian, the Knowledge Management System Checklist and/or the Complete Guide to Obsidian Automation"
-products: [beginners-guide-obsidian, knowledge-system-checklist, obsidian-automation-guide]
+purchase: "Beginner's Guide to Obsidian, the Knowledge Management System Checklist, the Obsidian Search Cheat Sheet and/or the Complete Guide to Obsidian Automation"
+products: [beginners-guide-obsidian, knowledge-system-checklist, obsidian-search-cheat-sheet, obsidian-automation-guide]
 order: 40
 intro: "You grabbed the free stuff. Good. Here's how to get the most out of it in about an hour, and what to do after."
 phases:
@@ -12,6 +12,11 @@ phases:
     when: "1 hour"
     steps:
       - module: beginners-guide-obsidian
+  - title: "Find what you wrote"
+    when: "Week 2+"
+    steps:
+      - module: obsidian-search-cheat-sheet
+        note: "Once you have a few dozen notes and the first one goes missing."
   - title: "Later, once the vault runs"
     when: "Month 2+"
     steps:

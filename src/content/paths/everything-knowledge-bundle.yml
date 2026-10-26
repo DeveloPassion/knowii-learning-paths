@@ -1,9 +1,9 @@
 title: "Everything Knowledge Bundle"
 purchase: "Everything Knowledge Bundle (Gumroad)"
-products: [everything-knowledge-bundle, knowledge-worker-kit, knowledge-management-for-beginners, obsidian-starter-kit, obsidian-starter-course, ai-ghostwriter-guide, pkm-library, knowii-voice-ai, clarity-101, personal-organization-101, journaling-deep-dive, ai-master-prompt, model-context-protocol, beginners-guide-obsidian, knowledge-system-checklist]
+products: [everything-knowledge-bundle, knowledge-worker-kit, knowledge-management-for-beginners, obsidian-starter-kit, obsidian-starter-course, ai-ghostwriter-guide, pkm-library, knowii-voice-ai, clarity-101, personal-organization-101, journaling-deep-dive, ai-master-prompt, model-context-protocol, beginners-guide-obsidian, knowledge-system-checklist, obsidian-search-handbook, obsidian-search-cheat-sheet]
 storeUrl: https://www.store.dsebastien.net/product/everything-knowledge-bundle
 order: 1
-intro: "You own everything I've made, and that's the problem: fourteen products, no obvious first move. Here's the order I'd take if I were you. Roughly three months if you give it a few hours a week. Skip what you already know; the checkboxes remember where you are."
+intro: "You own everything I've made, and that's the problem: sixteen products, no obvious first move. Here's the order I'd take if I were you. Roughly three months if you give it a few hours a week. Skip what you already know; the checkboxes remember where you are."
 phases:
   - title: "Orient"
     when: "Day 1"
@@ -28,6 +28,11 @@ phases:
     steps:
       - module: knowledge-management-for-beginners
         note: "One module a week. Do the exercises in your real vault."
+      - module: obsidian-search-handbook
+        note: "Complete edition. 20-query test now, the 30-day makeover once the vault has a few hundred notes."
+      - module: obsidian-search-cheat-sheet
+        optional: true
+        note: "Free, and Appendix A of the book has it all. Ask me if you want the PDF."
   - title: "The rest of your work life"
     when: "Weeks 6 to 8"
     steps:
