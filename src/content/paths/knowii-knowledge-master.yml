@@ -3,7 +3,7 @@ purchase: "Knowii community, Knowledge Master tier"
 products: [knowii-community, knowledge-worker-kit, knowledge-management-for-beginners, obsidian-starter-kit, obsidian-starter-course, ai-ghostwriter-guide, pkm-library, clarity-101, personal-organization-101, journaling-deep-dive, ai-master-prompt, model-context-protocol, beginners-guide-obsidian, knowledge-system-checklist]
 storeUrl: https://www.store.dsebastien.net/product/knowii-community
 order: 2
-intro: "Knowledge Master is everything: every course, every tool, every workshop, plus the exclusive sessions. The order below is the one I give members who ask 'where do I start?'. Community first, because that's where you'll ask the questions the rest of the path raises."
+intro: "On the yearly and two-year plans, or if you've been a Master since before 16 November 2026, Knowledge Master is everything: every course, every tool, every workshop, plus the exclusive sessions. Joined on the quarterly plan since then? You get the events, the community spaces, the support and the workshop recordings, not the courses and tools. The order below is the one I give members who ask 'where do I start?'. Community first, because that's where you'll ask the questions the rest of the path raises."
 phases:
   - title: "Show up"
     when: "Day 1"
